@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/pro-diss-track/sw.js', { scope: '/pro-diss-track/' })})}
