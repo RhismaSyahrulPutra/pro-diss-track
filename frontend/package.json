@@ -27,6 +27,8 @@
     "vite-plugin-static-copy": "^2.3.1"
   },
   "dependencies": {
-    "aos": "^2.3.4"
+    "aos": "^2.3.4",
+    "feather-icons": "^4.29.2",
+    "sweetalert2": "^11.21.0"
   }
 }
