@@ -1,66 +1,44 @@
 import './styles/style.css';
 import './styles/tailwind.css';
-import javascriptLogo from './assets/javascript.svg';
-import viteLogo from '/vite.svg';
-import { setupCounter } from './counter.js';
+
+// Import Pages
+import Home from './pages/homePage.js';
+import About from './pages/aboutPage.js';
+import Testimonial from './pages/testimonialPage.js';
+import Features from './pages/featuresPage.js';
+
+// Import Components
+import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js';
 
 // Import AOS
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
-// Import SweetAlert2
-import Swal from 'sweetalert2';
-
-// Import Feather Icons
 import feather from 'feather-icons';
 
+// Render ke DOM
 document.querySelector('#app').innerHTML = `
-  <div class="text-center p-4">
-    <a href="https://vite.dev" target="_blank" class="m-2">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="m-2">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1 class="text-3xl font-bold mt-4">Hello Vite!</h1>
-    <div class="card mt-4 p-6 bg-gray-100 rounded-lg shadow-lg">
-      <button id="counter" type="button" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"></button>
+  <div>
+    ${Navbar()}
+    <div id="home" class="section">
+      ${Home()}
     </div>
-    <div class="mt-6">
-      <!-- Tombol dengan ikon Feather -->
-      <button id="success-btn" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">
-        <i data-feather="check-circle" class="text-white mr-2"></i> Tampilkan Notifikasi Sukses
-      </button>
-      <button id="error-btn" class="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">
-        <i data-feather="x-circle" class="text-white mr-2"></i> Tampilkan Notifikasi Error
-      </button>
+    <div id="about" class="section">
+      ${About()}
     </div>
-    <p class="read-the-docs mt-4 text-lg text-gray-600">
-      Click on the Vite logo to learn more
-    </p>
+    <div id="testimonial" class="section">
+      ${Testimonial()}
+    </div>
+    <div id="features" class="section">
+      ${Features()}
+    </div>
+    ${Footer()}
   </div>
 `;
 
-setupCounter(document.querySelector('#counter'));
+// Inisialisasi Feather icons
+feather.replace();
 
-// init AOS
+// Inisialisasi AOS dan feather icons
 AOS.init();
-
-document.getElementById('success-btn').addEventListener('click', () => {
-  Swal.fire({
-    title: 'Berhasil!',
-    text: 'Data berhasil disimpan.',
-    icon: 'success',
-    confirmButtonText: 'OK',
-  });
-});
-document.getElementById('error-btn').addEventListener('click', () => {
-  Swal.fire({
-    title: 'Error!',
-    text: 'Ada kesalahan saat menyimpan data.',
-    icon: 'error',
-    confirmButtonText: 'Coba Lagi',
-  });
-});
-
 feather.replace();
