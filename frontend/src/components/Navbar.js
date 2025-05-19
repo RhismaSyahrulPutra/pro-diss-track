@@ -5,12 +5,11 @@ export default function Navbar() {
         <!-- Logo di kiri -->
         <div class="flex items-center" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
           <img src="your-logo-url.png" alt="Logo" class="h-8 mr-3">
-          <span class="text-lg font-bold">PRO DISS TRACK</span>
+          <a href="#home"><span class="text-lg font-bold">PRO DISS TRACK</span></a>
         </div>
 
         <!-- Tombol hamburger (hanya muncul di mobile) -->
         <button id="menu-toggle" class="md:hidden focus:outline-none" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
-          <!-- Feather icon hamburger -->
           <i data-feather="menu" class="w-6 h-6"></i>
         </button>
 
@@ -20,9 +19,9 @@ export default function Navbar() {
           <a href="#about" class="text-sm font-semibold">About</a>
           <a href="#testimonial" class="text-sm font-semibold">Testimonial</a>
           <a href="#features" class="text-sm font-semibold">Features</a>
-          <a href="#signin" class="px-4 py-4 bg-blue-600 text-white rounded-md hover:bg-blue-700 text-sm font-semibold">
+          <button id="login-button" class="px-4 py-4 bg-blue-600 text-white rounded-md hover:bg-blue-700 text-sm font-semibold">
             Sign In / Sign Up
-          </a>
+          </button>
         </div>
       </div>
 
@@ -40,29 +39,10 @@ export default function Navbar() {
         <a href="#features" class="block text-sm font-semibold py-4 flex items-center" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
           <i data-feather="star" class="w-5 h-5 mr-2"></i> Features
         </a>
-        <a href="#signin" class="block px-4 py-4 bg-blue-600 text-white rounded-md hover:bg-blue-700 text-sm font-semibold flex items-center" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+        <button id="login-button-mobile" class="block w-full px-4 py-4 bg-blue-600 text-white rounded-md hover:bg-blue-700 text-sm font-semibold flex items-center" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
           <i data-feather="log-in" class="w-5 h-5 mr-2"></i> Sign In / Sign Up
-        </a>
+        </button>
       </div>
     </nav>
   `;
 }
-
-// After the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', function () {
-  const toggleBtn = document.getElementById('menu-toggle');
-  const mobileMenu = document.getElementById('mobile-menu');
-
-  // Toggle menu visibility
-  toggleBtn.addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
-  });
-
-  // Close the menu when any item is clicked
-  const menuItems = mobileMenu.querySelectorAll('a');
-  menuItems.forEach((item) => {
-    item.addEventListener('click', () => {
-      mobileMenu.classList.add('hidden');
-    });
-  });
-});
