@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "crypto-js": "^4.2.0",
     "feather-icons": "^4.29.2",
     "sweetalert2": "^11.21.0"
   }

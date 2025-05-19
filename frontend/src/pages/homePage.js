@@ -12,7 +12,7 @@ export default function Home() {
           About This App
         </a>
         <a 
-          href="#auth" 
+          href="#login" 
           class="bg-blue-200 border border-blue-600 text-blue-600 px-6 py-4 rounded-md font-semibold text-sm transition hover:bg-blue-300 hover:shadow-lg hover:border-2 hover:border-blue-700"
         >
           Sign In / Sign Up
