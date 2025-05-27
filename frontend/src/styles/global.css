@@ -33,7 +33,11 @@ body > .container {
 
 .section {
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  padding: 0 50px 0 50px;
+}
+
+.section-about {
+  min-height: 100vh;
+  width: 100%;
 }
