@@ -1,11 +1,39 @@
-// pages/About.js
+import 'aos/dist/aos.css';
+
 export default function About() {
   return `
-    <section class="w-full min-h-screen px-4 pt-28">
-      <!-- Heading -->
-      <h1 class="text-4xl font-bold mb-6 text-center">About This App</h1>
-      <!-- Konten -->
-      <p class="text-lg mb-8 max-w-screen-lg text-center">We are a company dedicated to providing excellent service and offering innovative solutions to our users. Our app aims to provide the best experience, with a focus on usability, security, and performance.</p>
+    <section class="section-about py-24 min-h-screen">
+      <div class="max-w-screen mx-auto flex gap-8 flex-col md:flex-row">
+        <!-- Card kiri -->
+        <div 
+          class="flex-1 bg-white p-8 rounded-lg shadow-md" 
+          data-aos="fade-right" 
+          data-aos-delay="100"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-900">Latar Belakang</h2>
+          <p class="text-sm text-justify text-gray-700 leading-relaxed">
+            Di Indonesia, terdapat sekitar 2 juta penyandang disabilitas tuna rungu wicara, menurut data Kementerian Sosial Republik Indonesia. Mereka merupakan bagian signifikan dari masyarakat yang membutuhkan komunikasi inklusif. Namun, media pembelajaran bahasa isyarat untuk orang normal yang ingin belajar berkomunikasi dengan mereka masih sangat terbatas. Kurangnya akses terhadap platform edukatif yang mudah dipahami dan interaktif menyebabkan kesenjangan komunikasi dan menjadi hambatan dalam mendorong inklusi sosial antara masyarakat umum dan penyandang disabilitas rungu wicara.
+          </p>
+          <p class="text-sm text-justify text-gray-700 leading-relaxed mt-4">
+            Pengembangan website pembelajaran bahasa isyarat ini berfokus pada perancangan platform efektif bagi orang normal yang ingin mempelajari bahasa yang digunakan oleh penyandang tuna rungu dan tuna wicara. Project ini juga bertujuan mengetahui fitur yang diperlukan agar pembelajaran menjadi interaktif, mudah dipahami, dan sesuai kebutuhan pengguna, sekaligus mengeksplorasi bagaimana website ini dapat meningkatkan kesadaran masyarakat dan mendukung inklusi sosial bagi penyandang disabilitas rungu wicara.
+          </p>
+        </div>
+
+        <!-- Card kanan -->
+        <div 
+          class="flex-1 bg-white p-8 rounded-lg shadow-md"
+          data-aos="fade-left"
+          data-aos-delay="100"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-900">Fokus Project</h2>
+          <p class="text-sm text-justify text-gray-700 leading-relaxed">
+            Proyek ini bertujuan mengembangkan platform pembelajaran bahasa isyarat berbasis web yang interaktif dan mudah diakses oleh masyarakat umum. Dengan menggunakan teknologi Machine Learning seperti SVM, KNN, dan Random Forest, platform ini memungkinkan pemahaman visual bahasa isyarat secara lebih efektif.
+          </p>
+          <p class="text-sm text-justify text-gray-700 leading-relaxed mt-4">
+            Pengembangan mencakup pengumpulan data, pelatihan model ML, serta integrasi frontend dan backend menggunakan TensorFlow, OpenCV, Node.js, dan Tailwind CSS. Proyek ini juga fokus pada peningkatan akurasi model dan pengalaman pengguna agar komunikasi inklusif antara penyandang disabilitas rungu wicara dan masyarakat luas dapat terwujud.
+          </p>
+        </div>
+      </div>
     </section>
   `;
 }
