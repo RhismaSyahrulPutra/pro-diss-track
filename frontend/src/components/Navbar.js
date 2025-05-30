@@ -1,4 +1,5 @@
 import feather from 'feather-icons';
+import Logo_PDT from '/icons/Logo_PDT.svg';
 
 export default function Navbar() {
   return `
@@ -6,7 +7,7 @@ export default function Navbar() {
       <div class="container mx-auto p-4 flex justify-between items-center">
         <!-- Logo -->
         <div class="flex items-center" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
-          <img src="your-logo-url.png" alt="Logo" class="h-8 mr-3">
+          <img src="${Logo_PDT}" alt="Logo" class="h-12 mr-3">
           <a href="#home"><span class="text-lg font-bold">PRO DISS TRACK</span></a>
         </div>
 
