@@ -1,6 +1,7 @@
 import Login from '../pages/auth/loginPage.js';
 import SignUp from '../pages/auth/signUpPage.js';
 import feather from 'feather-icons';
+import notyf from '../utils/notyf.js';
 
 function bindTogglePassword(toggleId, inputId) {
   const toggle = document.getElementById(toggleId);
@@ -36,11 +37,9 @@ export function renderAuth(app, hash) {
   const form = document.getElementById(formId);
   if (!form) return;
 
-  // Clone dan replace form agar event listener sebelumnya hilang
   form.replaceWith(form.cloneNode(true));
   const freshForm = document.getElementById(formId);
 
-  // Pasang toggle password listener setelah form baru ada
   attachToggleListeners(hash);
 
   if (hash === '#login') {
@@ -48,11 +47,10 @@ export function renderAuth(app, hash) {
       e.preventDefault();
       const email = freshForm.email.value.trim();
       const password = freshForm.password.value.trim();
-
       if (fakeAuth(email, password)) {
         window.location.hash = '#course';
       } else {
-        alert('Email atau password salah!');
+        notyf.error('Email atau password salah!');
       }
     });
   }
@@ -66,15 +64,16 @@ export function renderAuth(app, hash) {
       const confirmPassword = freshForm.confirmPassword.value.trim();
 
       if (!username) {
-        alert('Username wajib diisi!');
-        return;
-      }
-      if (password !== confirmPassword) {
-        alert('Password dan konfirmasi password tidak cocok!');
+        notyf.error('Username wajib diisi!');
         return;
       }
 
-      alert(
+      if (password !== confirmPassword) {
+        notyf.error('Password dan konfirmasi password tidak cocok!');
+        return;
+      }
+
+      notyf.success(
         `Signup berhasil untuk username: ${username}, email: ${email}, silakan login`,
       );
       window.location.hash = '#login';
