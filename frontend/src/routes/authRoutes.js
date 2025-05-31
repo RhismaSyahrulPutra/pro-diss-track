@@ -17,6 +17,13 @@ function bindTogglePassword(toggleId, inputId) {
   });
 }
 
+function attachToggleListeners(hash) {
+  bindTogglePassword('toggle-password', 'password');
+  if (hash === '#signup') {
+    bindTogglePassword('toggle-confirm-password', 'confirmPassword');
+  }
+}
+
 function fakeAuth(email, password) {
   return email === 'user@example.com' && password === '123456';
 }
@@ -25,17 +32,16 @@ export function renderAuth(app, hash) {
   app.innerHTML = hash === '#login' ? Login() : SignUp();
   feather.replace();
 
-  bindTogglePassword('toggle-password', 'password');
-  if (hash === '#signup') {
-    bindTogglePassword('toggle-confirm-password', 'confirmPassword');
-  }
-
   const formId = hash === '#login' ? 'login-form' : 'signup-form';
   const form = document.getElementById(formId);
   if (!form) return;
 
+  // Clone dan replace form agar event listener sebelumnya hilang
   form.replaceWith(form.cloneNode(true));
   const freshForm = document.getElementById(formId);
+
+  // Pasang toggle password listener setelah form baru ada
+  attachToggleListeners(hash);
 
   if (hash === '#login') {
     freshForm.addEventListener('submit', (e) => {

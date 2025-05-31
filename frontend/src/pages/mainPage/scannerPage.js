@@ -1,26 +1,69 @@
 export default function Scanner() {
-  return `
-    <section class="min-h-screen flex flex-col bg-gray-50 px-4 py-6 overflow-hidden">
-      <header class="text-center mb-6 flex-shrink-0">
-        <h1 class="text-3xl font-bold text-gray-800">Scanner latihan bahasa Isyarat</h1>
-      </header>
+  setTimeout(() => {
+    const video = document.getElementById('cameraStream');
+    const statusBadge = document.getElementById('cameraStatus');
 
-      <main class="flex flex-col items-center flex-grow min-h-0">
-        <video
-          id="cameraStream"
-          autoplay
-          playsinline
-          class="w-full max-w-xl rounded-lg shadow-lg object-cover"
-          style="aspect-ratio: 4 / 3; max-height: 60vh; transform: none;"
-        ></video>
+    // Coba akses kamera
+    navigator.mediaDevices
+      .getUserMedia({ video: true })
+      .then((stream) => {
+        video.srcObject = stream;
+        video.play();
+        statusBadge.textContent = 'Kamera Aktif';
+        statusBadge.classList.remove('bg-red-100', 'text-red-700');
+        statusBadge.classList.add('bg-green-100', 'text-green-700');
+      })
+      .catch((err) => {
+        statusBadge.textContent = 'Kamera Tidak Aktif';
+        statusBadge.classList.remove('bg-green-100', 'text-green-700');
+        statusBadge.classList.add('bg-red-100', 'text-red-700');
+        console.error('Tidak bisa mengakses kamera:', err);
+      });
+  }, 0);
+
+  return `
+    <section
+      class="h-screen flex flex-col bg-gray-50 px-4 py-20 overflow-hidden"
+      data-aos="fade-up"
+      data-aos-duration="800"
+    >
+      <main class="flex flex-col items-center justify-center gap-6 w-full flex-grow">
+        <div
+          class="relative"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="800"
+        >
+          <video
+            id="cameraStream"
+            autoplay
+            playsinline
+            muted
+            class="w-full max-w-2xl rounded-xl shadow-2xl object-cover border-4 border-indigo-300"
+            style="aspect-ratio: 4 / 3; max-height: 60vh;"
+          ></video>
+          <div
+            id="cameraStatus"
+            class="absolute bottom-2 right-2 bg-red-100 text-red-700 text-sm px-3 py-1 rounded shadow transition-colors duration-300"
+          >
+            Memeriksa kamera...
+          </div>
+        </div>
 
         <div
           id="detectedCard"
-          class="mt-4 bg-white border border-gray-300 rounded-md shadow-md p-6 text-center text-gray-800"
-          style="width: 100%; max-width: 580px;"
+          class="bg-white border border-gray-200 rounded-xl shadow-xl p-6 w-full max-w-lg text-center transition-all duration-300 ease-in-out hover:shadow-2xl"
+          data-aos="fade-up"
+          data-aos-delay="400"
+          data-aos-duration="800"
         >
-          <p class="text-lg font-medium mb-2">Huruf yang Anda buat adalah:</p>
-          <p id="detectedLetter" class="text-6xl font-extrabold">A</p>
+          <p class="text-md font-medium text-gray-700 mb-3">Huruf yang Anda buat adalah:</p>
+          <p
+            id="detectedLetter"
+            class="text-5xl font-black text-blue-700 animate-pulse"
+          >
+            A
+          </p>
         </div>
       </main>
     </section>
