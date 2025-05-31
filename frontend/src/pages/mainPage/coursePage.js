@@ -19,33 +19,33 @@ export default function Course() {
       description: 'Belajar materi bahasa isyarat untuk huruf: E, F, G, H',
       imageUrl: '/assets/images/course_placeholder.jpg',
     },
-    {
-      title: 'Materi I - L',
-      description: 'Belajar materi bahasa isyarat untuk huruf: I, J, K, L',
-      imageUrl: '/assets/images/course_placeholder.jpg',
-    },
-    {
-      title: 'Materi M - P',
-      description: 'Belajar materi bahasa isyarat untuk huruf: M, N, O, P',
-      imageUrl: '/assets/images/course_placeholder.jpg',
-    },
-    {
-      title: 'Materi Q - T',
-      description: 'Belajar materi bahasa isyarat untuk huruf: Q, R, S, T',
-      imageUrl: '/assets/images/course_placeholder.jpg',
-    },
-    {
-      title: 'Materi U - Z',
-      description:
-        'Belajar materi bahasa isyarat untuk huruf: U, V, W, X, Y, Z',
-      imageUrl: '/assets/images/course_placeholder.jpg',
-    },
+    // dst...
   ];
+
+  // Tambahkan class untuk keperluan listener
+  const cardsHTML = courses
+    .map(
+      (course) => `
+      <div class="course-card cursor-pointer">
+        ${CourseCard(course)}
+      </div>
+    `,
+    )
+    .join('');
+
+  // Pasang event listener setelah render
+  setTimeout(() => {
+    document.querySelectorAll('.course-card').forEach((card) => {
+      card.addEventListener('click', () => {
+        window.location.hash = '#material';
+      });
+    });
+  }, 0);
 
   return `
     <section class="py-24 min-h-screen px-4 overflow-x-hidden bg-gray-50">
       <div class="max-w-screen-xl mx-auto">
-        <!-- Greeting Header -->
+        <!-- Header -->
         <div 
           class="flex items-center gap-6 bg-white/70 border border-blue-200 border-b-4 border-b-blue-500 backdrop-blur-md p-6 rounded-xl shadow mb-10"
           data-aos="fade-up"
@@ -66,7 +66,7 @@ export default function Course() {
           data-aos-duration="800"
           data-aos-delay="200"
         >
-          ${courses.map((course) => CourseCard(course)).join('')}
+          ${cardsHTML}
         </div>
       </div>
     </section>

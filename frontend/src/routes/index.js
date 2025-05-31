@@ -91,7 +91,13 @@ export function setupRouting(navbarContainer, app) {
       return;
     }
 
-    const appPages = ['#course', '#scanner', '#create-testimonial', '#profile'];
+    const appPages = [
+      '#course',
+      '#scanner',
+      '#create-testimonial',
+      '#profile',
+      '#material',
+    ];
     if (appPages.includes(hash)) {
       navbarContainer.style.display = 'block';
       renderNavbar('auth');

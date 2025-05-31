@@ -23,16 +23,8 @@ export default function TestimonialForm() {
               placeholder="Nama Anda"
             />
           </div>
-          <div>
-            <label class="block mb-1 font-medium" for="job">Pekerjaan</label>
-            <input
-              type="text"
-              id="job"
-              required
-              class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
-              placeholder="Pekerjaan Anda"
-            />
-          </div>
+          <!-- Bagian pekerjaan dihapus -->
+
           <div>
             <label class="block mb-1 font-medium" for="testimonial">Testimonial</label>
             <textarea
