@@ -15,6 +15,7 @@ import AccountPreference from '../components/mainPage/AccountPreference.js';
 
 export function setupRouting(navbarContainer, app) {
   let currentNavbar = null;
+  let cameraStream = null;
 
   function renderNavbar(type = 'public') {
     if (currentNavbar === type) return;
@@ -45,7 +46,6 @@ export function setupRouting(navbarContainer, app) {
     const contentArea = document.getElementById('contentArea');
 
     function setActive(button) {
-      // Hapus kelas aktif dari semua tombol
       [profileBtn, accountBtn].forEach((btn) => {
         btn.classList.remove('border-b-2', 'border-blue-500');
       });
@@ -67,7 +67,6 @@ export function setupRouting(navbarContainer, app) {
     }
   }
 
-  // Fungsi membuka kamera user dan menampilkan stream di <video id="cameraStream">
   function openUserCamera() {
     const videoElement = document.getElementById('cameraStream');
     if (!videoElement) return;
@@ -75,6 +74,7 @@ export function setupRouting(navbarContainer, app) {
     navigator.mediaDevices
       .getUserMedia({ video: { facingMode: 'environment' } })
       .then((stream) => {
+        cameraStream = stream;
         videoElement.srcObject = stream;
       })
       .catch((error) => {
@@ -82,8 +82,17 @@ export function setupRouting(navbarContainer, app) {
       });
   }
 
+  function stopUserCamera() {
+    if (cameraStream) {
+      cameraStream.getTracks().forEach((track) => track.stop());
+      cameraStream = null;
+    }
+  }
+
   function handleNavigation() {
     const hash = window.location.hash || '#home';
+
+    stopUserCamera();
 
     if (hash === '#login' || hash === '#signup') {
       navbarContainer.style.display = 'none';
@@ -104,12 +113,10 @@ export function setupRouting(navbarContainer, app) {
       renderApp(app, hash);
 
       if (hash === '#profile') {
-        // Pasang listener khusus jika halaman profile
         setTimeout(() => {
           attachProfileListeners();
         }, 0);
       } else if (hash === '#scanner') {
-        // Jalankan openUserCamera setelah DOM siap
         setTimeout(() => {
           openUserCamera();
         }, 0);
