@@ -10,15 +10,16 @@ pnpm-debug.log*
 # File coverage hasil testing (jika pakai testing)
 coverage/
 
+# File environment
+.env
+.env.local
+.env.test
+
 # File lock dari package manager (jika kamu tidak mau commit)
 # Tapi biasanya package-lock.json atau yarn.lock tetap di-commit.
 # Uncomment jika perlu ignore
 # package-lock.json
 # yarn.lock
-
-# File environment lokal tambahan (misal env.local, .env.test)
-.env.local
-.env.test
 
 # Temp file editor lain (jika pakai)
 *.swp
