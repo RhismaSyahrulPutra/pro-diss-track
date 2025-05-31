@@ -1,0 +1,38 @@
+# Direktori hasil build (jika ada)
+dist/
+build/
+
+# Cache npm/yarn
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# File coverage hasil testing (jika pakai testing)
+coverage/
+
+# File lock dari package manager (jika kamu tidak mau commit)
+# Tapi biasanya package-lock.json atau yarn.lock tetap di-commit.
+# Uncomment jika perlu ignore
+# package-lock.json
+# yarn.lock
+
+# File environment lokal tambahan (misal env.local, .env.test)
+.env.local
+.env.test
+
+# Temp file editor lain (jika pakai)
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# MacOS metadata lain selain .DS_Store
+.AppleDouble
+.LSOverride
+
+# Folder logs lain, jika kamu punya
+logs/
+*.log
+
+# Direktori output migrasi (jika generate SQL dump)
+migrations/output/
