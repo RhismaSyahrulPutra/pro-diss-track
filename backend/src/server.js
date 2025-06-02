@@ -5,6 +5,7 @@ const Inert = require('@hapi/inert');
 
 // IMPORTANT
 const config = require('./utils/config');
+const plugins = require('./plugins');
 const serverRoutes = require('./api/server');
 
 // EXCEPTIONS
@@ -47,6 +48,8 @@ const init = async () => {
   });
 
   server.auth.default('pdt_jwt');
+
+  await server.register(plugins);
 
   server.route(serverRoutes);
 
