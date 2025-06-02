@@ -26,6 +26,12 @@ const routes = (handler) => [
     handler: handler.putAccountHandler,
   },
   {
+    method: 'PUT',
+    path: '/accounts/{accountId}/password',
+    handler: handler.putPasswordHandler,
+  },
+
+  {
     method: 'DELETE',
     path: '/accounts/{accountId}',
     handler: handler.deleteAccountHandler,

@@ -8,9 +8,9 @@ class AccountsHandler {
     this.getAccountHandler = this.getAccountHandler.bind(this);
     this.putAccountHandler = this.putAccountHandler.bind(this);
     this.deleteAccountHandler = this.deleteAccountHandler.bind(this);
+    this.putPasswordHandler = this.putPasswordHandler.bind(this);
   }
 
-  // CREATE account
   async postAccountHandler(request, h) {
     this._validator.validateAccountPayload(request.payload);
 
@@ -33,7 +33,6 @@ class AccountsHandler {
     return response;
   }
 
-  // READ all accounts
   async getAllAccountsHandler(request, h) {
     const accounts = await this._service.getAllAccounts();
 
@@ -43,7 +42,6 @@ class AccountsHandler {
     };
   }
 
-  // READ account by accountId
   async getAccountHandler(request, h) {
     const { accountId } = request.params;
     const account = await this._service.getAccountById(accountId);
@@ -63,7 +61,6 @@ class AccountsHandler {
     };
   }
 
-  // UPDATE account by accountId
   async putAccountHandler(request, h) {
     this._validator.validateAccountPayload(request.payload);
     const { accountId } = request.params;
@@ -76,7 +73,6 @@ class AccountsHandler {
     };
   }
 
-  // DELETE account by accountId
   async deleteAccountHandler(request, h) {
     const { accountId } = request.params;
 
@@ -86,6 +82,33 @@ class AccountsHandler {
       status: 'success',
       message: 'Akun berhasil dihapus',
     };
+  }
+
+  async putPasswordHandler(request, h) {
+    const { accountId } = request.params;
+    const { currentPassword, newPassword } = request.payload;
+
+    this._validator.validatePasswordPayload(request.payload);
+
+    try {
+      await this._service.updatePassword(
+        accountId,
+        currentPassword,
+        newPassword
+      );
+
+      return {
+        status: 'success',
+        message: 'Password berhasil diubah',
+      };
+    } catch (error) {
+      const response = h.response({
+        status: 'fail',
+        message: error.message,
+      });
+      response.code(400);
+      return response;
+    }
   }
 }
 

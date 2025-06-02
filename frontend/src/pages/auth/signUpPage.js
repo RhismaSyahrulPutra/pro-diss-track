@@ -1,5 +1,9 @@
+import { BASE_URL } from '../../config/config';
+import axios from 'axios';
+import notyf from '../../utils/notyf';
+
 export default function SignUp() {
-  return `
+  const html = `
     <section class="w-full min-h-screen flex items-center justify-center bg-gray-100 px-4">
       <div class="max-w-md w-full bg-white p-8 rounded-xl shadow-md">
         <h2 class="text-2xl font-bold mb-6 text-center">Sign Up</h2>
@@ -41,4 +45,61 @@ export default function SignUp() {
       </div>
     </section>
   `;
+
+  setTimeout(() => {
+    const form = document.querySelector('#signUpForm');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const username = form.username.value.trim();
+      const email = form.email.value.trim();
+      const password = form.password.value;
+      const confirmPassword = form.confirmPassword.value;
+
+      if (password !== confirmPassword) {
+        notyf.error('Password dan Confirm Password tidak cocok!');
+        return;
+      }
+
+      const payload = {
+        username,
+        email,
+        password,
+        created_at: new Date().toISOString(),
+        last_login: null,
+      };
+
+      try {
+        const response = await axios.post(`${BASE_URL}/accounts`, payload);
+        // Cek username di response
+        let welcomeName = null;
+        if (response.data.username) {
+          welcomeName = response.data.username;
+        } else if (response.data.data && response.data.data.username) {
+          welcomeName = response.data.data.username;
+        }
+
+        if (welcomeName) {
+          notyf.success(`Registrasi berhasil! Selamat datang, ${welcomeName}`);
+        } else {
+          notyf.success('Registrasi berhasil! Silakan login.');
+        }
+
+        form.reset();
+
+        // Navigasi ke halaman login, misalnya hash route
+        setTimeout(() => {
+          window.location.hash = '#login';
+        }, 1500);
+      } catch (error) {
+        console.error(error);
+        notyf.error(
+          error.response?.data?.message || 'Terjadi kesalahan saat registrasi',
+        );
+      }
+    });
+  }, 0);
+
+  return html;
 }

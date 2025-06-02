@@ -25,11 +25,15 @@ function attachToggleListeners(hash) {
   }
 }
 
-function fakeAuth(email, password) {
-  return email === 'user@example.com' && password === '123456';
-}
-
 export function renderAuth(app, hash) {
+  const accessToken = localStorage.getItem('accessToken');
+  const refreshToken = localStorage.getItem('refreshToken');
+  const allowedHashes = ['#login', '#signup'];
+  if ((!accessToken || !refreshToken) && !allowedHashes.includes(hash)) {
+    window.location.hash = '#home';
+    return;
+  }
+
   app.innerHTML = hash === '#login' ? Login() : SignUp();
   feather.replace();
 
@@ -41,19 +45,6 @@ export function renderAuth(app, hash) {
   const freshForm = document.getElementById(formId);
 
   attachToggleListeners(hash);
-
-  if (hash === '#login') {
-    freshForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const email = freshForm.email.value.trim();
-      const password = freshForm.password.value.trim();
-      if (fakeAuth(email, password)) {
-        window.location.hash = '#course';
-      } else {
-        notyf.error('Email atau password salah!');
-      }
-    });
-  }
 
   if (hash === '#signup') {
     freshForm.addEventListener('submit', (e) => {

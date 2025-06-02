@@ -75,6 +75,7 @@ class AccountsService {
     }
     return result.rows[0];
   }
+
   async verifyUserCredential(username, password) {
     const query = {
       text: 'SELECT account_id, password FROM accounts WHERE username = $1',
@@ -153,6 +154,40 @@ class AccountsService {
 
     if (!result.rows.length) {
       throw new NotFoundError('Akun tidak ditemukan');
+    }
+  }
+
+  async updatePassword(accountId, currentPassword, newPassword) {
+    const query = {
+      text: 'SELECT password FROM accounts WHERE account_id = $1',
+      values: [accountId],
+    };
+
+    const result = await this._pool.query(query);
+
+    if (!result.rows.length) {
+      throw new NotFoundError('Akun tidak ditemukan');
+    }
+
+    const { password: hashedPassword } = result.rows[0];
+
+    const match = await bcrypt.compare(currentPassword, hashedPassword);
+
+    if (!match) {
+      throw new InvariantError('Password lama salah');
+    }
+
+    const newHashedPassword = await bcrypt.hash(newPassword, 10);
+
+    const updateQuery = {
+      text: 'UPDATE accounts SET password = $1 WHERE account_id = $2',
+      values: [newHashedPassword, accountId],
+    };
+
+    const updateResult = await this._pool.query(updateQuery);
+
+    if (updateResult.rowCount === 0) {
+      throw new NotFoundError('Gagal mengubah password. Akun tidak ditemukan');
     }
   }
 }
