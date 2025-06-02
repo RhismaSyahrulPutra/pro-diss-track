@@ -1,4 +1,4 @@
-const healthRoute = require('./health');
+const healthRoutes = require('./health');
 
 module.exports = [
   {
@@ -13,5 +13,13 @@ module.exports = [
       appHost: process.env.APP_HOST || '',
     }),
   },
-  healthRoute,
+  {
+    method: 'GET',
+    path: '/favicon.ico',
+    options: {
+      auth: false,
+    },
+    handler: (request, h) => h.response().code(204),
+  },
+  ...healthRoutes,
 ];

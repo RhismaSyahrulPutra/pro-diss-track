@@ -1,8 +1,13 @@
-module.exports = {
-  method: 'GET',
-  path: '/health',
-  handler: () => ({
-    status: 'success',
-    message: 'Server sehat dan siap!',
-  }),
-};
+module.exports = [
+  {
+    method: 'GET',
+    path: '/health',
+    handler: () => ({
+      status: 'success',
+      message: 'Server sehat dan siap!',
+    }),
+    options: {
+      auth: false,
+    },
+  },
+];
