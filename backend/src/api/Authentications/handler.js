@@ -40,6 +40,7 @@ class AuthenticationsHandler {
         data: {
           accessToken,
           refreshToken,
+          accountId: id, // <-- tambahan ini
         },
       });
       response.code(201);

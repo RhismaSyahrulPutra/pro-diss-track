@@ -100,7 +100,11 @@ export function attachAuthNavbarListeners() {
 
   const logoutBtn = document.getElementById('logout-button');
   const logoutBtnMobile = document.getElementById('logout-button-mobile');
+
   function logoutHandler() {
+    localStorage.removeItem('accessToken');
+    localStorage.removeItem('refreshToken');
+    localStorage.removeItem('accountId');
     window.location.replace(window.location.pathname + '#home');
   }
 
