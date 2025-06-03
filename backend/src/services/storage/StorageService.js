@@ -10,8 +10,11 @@ class StorageService {
     }
   }
 
-  writeFile(file, meta) {
-    const filename = `${Date.now()}-${meta.filename}`;
+  async writeFile(file, meta) {
+    const safeFilename = meta.filename
+      .replace(/[^a-z0-9.-]/gi, '-')
+      .toLowerCase();
+    const filename = `${Date.now()}-${safeFilename}`;
     const filePath = path.join(this._folder, filename);
 
     return new Promise((resolve, reject) => {
@@ -27,7 +30,7 @@ class StorageService {
   }
 
   deleteFile(filename) {
-    const filePath = path.join(this._folder, filename);
+    const filePath = path.join(this._folder, path.basename(filename));
     if (fs.existsSync(filePath)) {
       fs.unlinkSync(filePath);
     }

@@ -1,7 +1,13 @@
+const path = require('path');
+
 // ACCOUNTS
 const AccountsHandler = require('../api/accounts');
 const AccountsService = require('../services/postgres/AccountsService');
 const AccountsValidator = require('../validator/accounts');
+
+// SERVICES
+const StorageService = require('../services/storage/StorageService');
+const CacheService = require('../services/redis/CacheService');
 
 // AUTHENTICATIONS
 const AuthenticationsHandler = require('../api/Authentications');
@@ -29,13 +35,18 @@ const LessonsHandler = require('../api/Lessons');
 const LessonsService = require('../services/postgres/LessonsService');
 const LessonsValidator = require('../validator/Lessons');
 
+const cacheService = new CacheService();
 const accountsService = new AccountsService();
 const authenticationsService = new AuthenticationsService();
-const profilesService = new ProfilesService();
+const profilesService = new ProfilesService(cacheService);
 const testimonialsService = new TestimonialsService();
 const coursesService = new CoursesService();
 const lessonsService = new LessonsService();
 const tokenManager = TokenManager;
+
+const storageService = new StorageService(
+  path.resolve(__dirname, '..', '..', 'uploads')
+);
 
 const plugins = [
   {
@@ -59,6 +70,7 @@ const plugins = [
     options: {
       service: profilesService,
       validator: ProfilesValidator,
+      storageService,
     },
   },
   {

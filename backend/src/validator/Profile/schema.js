@@ -6,4 +6,17 @@ const ProfilePayloadSchema = Joi.object({
   profile_photo: Joi.string().allow(null, '').optional(),
 });
 
-module.exports = { ProfilePayloadSchema };
+const ProfilePhotoHeaderSchema = Joi.object({
+  'content-type': Joi.string()
+    .valid(
+      'image/apng',
+      'image/avif',
+      'image/gif',
+      'image/jpeg',
+      'image/png',
+      'image/webp'
+    )
+    .required(),
+}).unknown();
+
+module.exports = { ProfilePayloadSchema, ProfilePhotoHeaderSchema };

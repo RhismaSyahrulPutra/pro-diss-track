@@ -66,6 +66,10 @@ exports.up = (pgm) => {
       type: 'INTEGER',
       notNull: false,
     },
+    about_me: {
+      type: 'TEXT',
+      notNull: false,
+    },
     account_id: {
       type: 'VARCHAR(50)',
       notNull: true,

@@ -42,7 +42,22 @@ class ProfilesService {
       throw new NotFoundError('Profile tidak ditemukan');
     }
 
-    return result.rows[0];
+    const profile = result.rows[0];
+
+    // Jika ada profile_photo, buat URL akses file
+    const profilePhotoUrl = profile.profile_photo
+      ? profile.profile_photo.startsWith('http')
+        ? profile.profile_photo
+        : `http://${process.env.HOST || 'localhost'}:${process.env.PORT || 5000}/uploads/profile_photos/${profile.profile_photo}`
+      : null;
+
+    return {
+      profile_id: profile.profile_id,
+      account_id: profile.account_id,
+      job_title: profile.job_title,
+      age: profile.age,
+      profile_photo_url: profilePhotoUrl,
+    };
   }
 
   async updateProfileByAccountId(
@@ -71,6 +86,27 @@ class ProfilesService {
     await this._pool.query(query);
   }
 
+  async updateProfilePhotoByAccountId(account_id, photoFilename) {
+    const checkQuery = {
+      text: 'SELECT profile_id FROM profiles WHERE account_id = $1',
+      values: [account_id],
+    };
+    const checkResult = await this._pool.query(checkQuery);
+
+    if (!checkResult.rows.length) {
+      throw new NotFoundError('Profile tidak ditemukan');
+    }
+
+    const query = {
+      text: `UPDATE profiles
+             SET profile_photo = $1
+             WHERE account_id = $2`,
+      values: [photoFilename, account_id],
+    };
+
+    await this._pool.query(query);
+  }
+
   async deleteProfileByAccountId(account_id) {
     const query = {
       text: 'DELETE FROM profiles WHERE account_id = $1 RETURNING profile_id',
@@ -84,7 +120,6 @@ class ProfilesService {
     }
   }
 
-  // Opsi 1: Verify berdasarkan profile_id dan user_id (kalau kamu sudah punya profile_id)
   async verifyProfileOwner(profile_id, user_id) {
     const query = {
       text: 'SELECT account_id FROM profiles WHERE profile_id = $1',

@@ -190,6 +190,31 @@ class AccountsService {
       throw new NotFoundError('Gagal mengubah password. Akun tidak ditemukan');
     }
   }
+  async updateUsername(accountId, username) {
+    const currentAccount = await this.getAccountById(accountId);
+    if (!currentAccount) {
+      throw new NotFoundError('Akun tidak ditemukan');
+    }
+
+    if (username === currentAccount.username) {
+      return; // Tidak perlu update jika tidak berubah
+    }
+
+    await this.verifyNewUsername(username);
+
+    const query = {
+      text: 'UPDATE accounts SET username = $1 WHERE account_id = $2',
+      values: [username, accountId],
+    };
+
+    const result = await this._pool.query(query);
+
+    if (result.rowCount === 0) {
+      throw new NotFoundError(
+        'Gagal memperbarui username. Akun tidak ditemukan'
+      );
+    }
+  }
 }
 
 module.exports = AccountsService;
