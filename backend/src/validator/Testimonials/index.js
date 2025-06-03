@@ -1,15 +1,29 @@
 const InvariantError = require('../../exceptions/InvariantError');
-const { TestimonialPayloadSchema } = require('./schema');
+const {
+  TestimonialPostPayloadSchema,
+  TestimonialPutPayloadSchema,
+} = require('./schema');
 
 const TestimonialsValidator = {
-  validateTestimonialPayload: (payload) => {
+  validateTestimonialPostPayload: (payload) => {
     if (typeof payload !== 'object' || payload === null) {
       throw new InvariantError('Payload harus berupa objek');
     }
 
-    const validationResult = TestimonialPayloadSchema.validate(payload);
-    if (validationResult.error) {
-      throw new InvariantError(validationResult.error.message);
+    const { error } = TestimonialPostPayloadSchema.validate(payload);
+    if (error) {
+      throw new InvariantError(error.message);
+    }
+  },
+
+  validateTestimonialPutPayload: (payload) => {
+    if (typeof payload !== 'object' || payload === null) {
+      throw new InvariantError('Payload harus berupa objek');
+    }
+
+    const { error } = TestimonialPutPayloadSchema.validate(payload);
+    if (error) {
+      throw new InvariantError(error.message);
     }
   },
 };

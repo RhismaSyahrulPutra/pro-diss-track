@@ -13,6 +13,8 @@ import AuthNavbar, {
 import ProfilePreference from '../components/mainPage/ProfilePreference.js';
 import AccountPreference from '../components/mainPage/AccountPreference.js';
 
+import Lesson from '../pages/mainPage/lessonPage.js';
+
 export function setupRouting(navbarContainer, app) {
   let currentNavbar = null;
   let cameraStream = null;
@@ -89,14 +91,39 @@ export function setupRouting(navbarContainer, app) {
     }
   }
 
-  function handleNavigation() {
-    const hash = window.location.hash || '#home';
+  // Fungsi khusus untuk load lesson dari hash dengan query string
+  async function loadLessonFromHash() {
+    const hash = location.hash || '';
+    const queryStart = hash.indexOf('?');
+    const queryString = queryStart >= 0 ? hash.slice(queryStart + 1) : '';
+
+    try {
+      const html = await Lesson(queryString);
+      app.innerHTML = html;
+    } catch (err) {
+      app.innerHTML = `<section class="py-24 min-h-screen px-4 bg-gray-50">
+        <h1>Gagal memuat pelajaran.</h1>
+        <p>${err.message}</p>
+      </section>`;
+      console.error('Error saat loadLessonFromHash:', err);
+    }
+  }
+
+  // handleNavigation jadi async supaya bisa await loadLessonFromHash
+  async function handleNavigation() {
+    const fullHash = window.location.hash || '#home';
 
     stopUserCamera();
 
-    if (hash === '#login' || hash === '#signup') {
+    // Pisahkan rawPath & query string
+    const [rawPath] = fullHash.split('?');
+
+    // Hilangkan slash setelah # jika ada
+    const path = rawPath.startsWith('#/') ? '#' + rawPath.slice(2) : rawPath;
+
+    if (path === '#login' || path === '#signup') {
       navbarContainer.style.display = 'none';
-      renderAuth(app, hash);
+      renderAuth(app, fullHash);
       return;
     }
 
@@ -105,23 +132,28 @@ export function setupRouting(navbarContainer, app) {
       '#scanner',
       '#create-testimonial',
       '#profile',
-      '#material',
+      '#lesson',
     ];
-    if (appPages.includes(hash)) {
+
+    if (appPages.includes(path)) {
       navbarContainer.style.display = 'block';
       renderNavbar('auth');
-      renderApp(app, hash);
 
-      if (hash === '#profile') {
-        setTimeout(() => {
-          attachProfileListeners();
-        }, 0);
-      } else if (hash === '#scanner') {
-        setTimeout(() => {
-          openUserCamera();
-        }, 0);
+      if (path === '#lesson') {
+        await loadLessonFromHash();
+      } else {
+        renderApp(app, fullHash);
+
+        if (path === '#profile') {
+          setTimeout(() => {
+            attachProfileListeners();
+          }, 0);
+        } else if (path === '#scanner') {
+          setTimeout(() => {
+            openUserCamera();
+          }, 0);
+        }
       }
-
       return;
     }
 
@@ -131,13 +163,19 @@ export function setupRouting(navbarContainer, app) {
 
     AOS.refresh();
 
-    const targetId = hash.replace('#', '') || 'home';
+    const targetId = path.replace('#', '') || 'home';
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: 'smooth' });
     }
   }
 
-  handleNavigation();
-  window.addEventListener('hashchange', handleNavigation);
+  // Panggil handleNavigation dengan async wrapper supaya await jalan
+  (async () => {
+    await handleNavigation();
+  })();
+
+  window.addEventListener('hashchange', () => {
+    handleNavigation();
+  });
 }

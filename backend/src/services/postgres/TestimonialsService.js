@@ -9,14 +9,14 @@ class TestimonialsService {
     this._pool = new Pool();
   }
 
-  async addTestimonial({ account_id, testimonial_text }) {
+  async addTestimonial({ account_id, username, testimonial_text, rating }) {
     const testimonial_id = `testimonial-${nanoid(16)}`;
 
     const query = {
-      text: `INSERT INTO testimonials (testimonial_id, account_id, testimonial_text)
-             VALUES ($1, $2, $3)
+      text: `INSERT INTO testimonials (testimonial_id, account_id, username, testimonial_text, rating)
+             VALUES ($1, $2, $3, $4, $5)
              RETURNING testimonial_id`,
-      values: [testimonial_id, account_id, testimonial_text],
+      values: [testimonial_id, account_id, username, testimonial_text, rating],
     };
 
     const result = await this._pool.query(query);
@@ -30,7 +30,7 @@ class TestimonialsService {
 
   async getAllTestimonials() {
     const query = {
-      text: `SELECT testimonial_id, account_id, testimonial_text
+      text: `SELECT testimonial_id, account_id, username, testimonial_text, rating
              FROM testimonials`,
     };
 
@@ -40,7 +40,7 @@ class TestimonialsService {
 
   async getTestimonialByAccountId(account_id) {
     const query = {
-      text: `SELECT testimonial_id, account_id, testimonial_text
+      text: `SELECT testimonial_id, account_id, username, testimonial_text, rating
              FROM testimonials
              WHERE account_id = $1`,
       values: [account_id],
@@ -55,7 +55,8 @@ class TestimonialsService {
     return result.rows[0];
   }
 
-  async updateTestimonialByAccountId(account_id, { testimonial_text }) {
+  async updateTestimonialByAccountId(account_id, { testimonial_text, rating }) {
+    // Cek testimonial dulu
     const checkQuery = {
       text: 'SELECT testimonial_id FROM testimonials WHERE account_id = $1',
       values: [account_id],
@@ -68,9 +69,9 @@ class TestimonialsService {
 
     const query = {
       text: `UPDATE testimonials
-             SET testimonial_text = $1
-             WHERE account_id = $2`,
-      values: [testimonial_text, account_id],
+             SET testimonial_text = $1, rating = $2
+             WHERE account_id = $3`,
+      values: [testimonial_text, rating, account_id],
     };
 
     await this._pool.query(query);
@@ -89,7 +90,6 @@ class TestimonialsService {
     }
   }
 
-  // Opsi 1: Verify berdasarkan testimonial_id dan user_id (kalau sudah punya testimonial_id)
   async verifyTestimonialOwner(testimonial_id, user_id) {
     const query = {
       text: 'SELECT account_id FROM testimonials WHERE testimonial_id = $1',
@@ -106,19 +106,6 @@ class TestimonialsService {
 
     if (testimonial.account_id !== user_id) {
       throw new AuthorizationError('Anda tidak berhak mengakses resource ini');
-    }
-  }
-
-  async verifyTestimonialAccess(account_id) {
-    const query = {
-      text: 'SELECT account_id FROM testimonials WHERE account_id = $1',
-      values: [account_id],
-    };
-
-    const result = await this._pool.query(query);
-
-    if (!result.rows.length) {
-      throw new NotFoundError('Testimonial tidak ditemukan');
     }
   }
 }

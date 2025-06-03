@@ -105,6 +105,7 @@ export function attachAuthNavbarListeners() {
     localStorage.removeItem('accessToken');
     localStorage.removeItem('refreshToken');
     localStorage.removeItem('accountId');
+    localStorage.removeItem('username');
     window.location.replace(window.location.pathname + '#home');
   }
 

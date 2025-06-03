@@ -1,4 +1,34 @@
+import { BASE_URL } from '../../config/config';
+import axios from 'axios';
+import { Notyf } from 'notyf';
+
 export default function ProfilePreference() {
+  const accountId = localStorage.getItem('accountId');
+  const accessToken = localStorage.getItem('accessToken');
+
+  setTimeout(async () => {
+    if (!accountId || !accessToken) {
+      new Notyf().error('Anda belum login');
+      return;
+    }
+
+    try {
+      const response = await axios.get(`${BASE_URL}/accounts/${accountId}`, {
+        headers: {
+          Authorization: `Bearer ${accessToken}`,
+        },
+      });
+
+      const { username } = response.data;
+
+      const usernameInput = document.getElementById('username');
+      if (usernameInput) usernameInput.value = username || '';
+    } catch (error) {
+      new Notyf().error('Gagal mengambil data profil');
+      console.error(error);
+    }
+  }, 100);
+
   return `
     <div
       class="w-full"
@@ -13,17 +43,6 @@ export default function ProfilePreference() {
           <div class="w-32 h-32 bg-gray-200 rounded-full flex items-center justify-center text-gray-400 text-xl font-semibold select-none">
             Photo
           </div>
-        </div>
-
-        <!-- Username full width -->
-        <div>
-          <label for="username" class="block mb-2 font-semibold text-gray-700">Username</label>
-          <input
-            type="text"
-            id="username"
-            placeholder="Username Anda"
-            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
         </div>
 
         <!-- About Me full width -->
