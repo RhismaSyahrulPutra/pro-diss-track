@@ -90,6 +90,15 @@ exports.up = (pgm) => {
       references: 'accounts(account_id)',
       onDelete: 'CASCADE',
     },
+    username: {
+      type: 'VARCHAR(100)',
+      notNull: true,
+    },
+    rating: {
+      type: 'INTEGER',
+      notNull: true,
+      check: 'rating >= 1 AND rating <= 5',
+    },
   });
 
   // Tabel courses

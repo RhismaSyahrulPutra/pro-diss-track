@@ -16,14 +16,26 @@ class TestimonialsHandler {
   }
 
   async postTestimonialHandler(request, h) {
-    this._validator.validateTestimonialPayload(request.payload);
+    // Validasi payload khusus POST (username, testimonial_text, rating)
+    this._validator.validateTestimonialPostPayload(request.payload);
 
-    const { testimonial_text } = request.payload;
+    const { testimonial_text, username, rating } = request.payload;
     const { id: credentialId } = request.auth.credentials;
+
+    if (!username) {
+      return h
+        .response({
+          status: 'fail',
+          message: 'Username tidak ditemukan di payload',
+        })
+        .code(400);
+    }
 
     const testimonialId = await this._service.addTestimonial({
       account_id: credentialId,
+      username,
       testimonial_text,
+      rating,
     });
 
     const response = h.response({
@@ -61,9 +73,10 @@ class TestimonialsHandler {
   }
 
   async putTestimonialByAccountHandler(request) {
-    this._validator.validateTestimonialPayload(request.payload);
+    // Validasi payload khusus PUT (testimonial_text, rating)
+    this._validator.validateTestimonialPutPayload(request.payload);
 
-    const { testimonial_text } = request.payload;
+    const { testimonial_text, rating } = request.payload;
     const { id: credentialId } = request.auth.credentials;
 
     const testimonial =
@@ -76,6 +89,7 @@ class TestimonialsHandler {
 
     await this._service.updateTestimonialByAccountId(credentialId, {
       testimonial_text,
+      rating,
     });
 
     return {
