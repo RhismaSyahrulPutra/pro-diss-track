@@ -35,6 +35,10 @@ class StorageService {
       fs.unlinkSync(filePath);
     }
   }
+
+  getFilePath(filename) {
+    return path.join(this._folder, path.basename(filename));
+  }
 }
 
 module.exports = StorageService;

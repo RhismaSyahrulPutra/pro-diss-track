@@ -60,7 +60,7 @@ exports.up = (pgm) => {
     },
     job_title: {
       type: 'VARCHAR(100)',
-      notNull: true,
+      notNull: false,
     },
     age: {
       type: 'INTEGER',
