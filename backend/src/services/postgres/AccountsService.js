@@ -16,10 +16,11 @@ class AccountsService {
     const accountId = `account-${nanoid(16)}`;
     const hashedPassword = await bcrypt.hash(password, 10);
 
+    // Insert akun
     const query = {
       text: `INSERT INTO accounts (account_id, email, password, username, last_login, created_at)
-             VALUES($1, $2, $3, $4, $5, $6)
-             RETURNING account_id`,
+           VALUES($1, $2, $3, $4, $5, $6)
+           RETURNING account_id`,
       values: [
         accountId,
         email,
@@ -35,6 +36,17 @@ class AccountsService {
     if (!result.rows.length) {
       throw new InvariantError('Akun gagal ditambahkan');
     }
+
+    const profileId = `profile-${nanoid(16)}`;
+
+    const profileQuery = {
+      text: `INSERT INTO profiles (profile_id, account_id)
+           VALUES ($1, $2)`,
+      values: [profileId, accountId],
+    };
+
+    await this._pool.query(profileQuery);
+
     return result.rows[0].account_id;
   }
 
@@ -188,6 +200,31 @@ class AccountsService {
 
     if (updateResult.rowCount === 0) {
       throw new NotFoundError('Gagal mengubah password. Akun tidak ditemukan');
+    }
+  }
+  async updateUsername(accountId, username) {
+    const currentAccount = await this.getAccountById(accountId);
+    if (!currentAccount) {
+      throw new NotFoundError('Akun tidak ditemukan');
+    }
+
+    if (username === currentAccount.username) {
+      return; // Tidak perlu update jika tidak berubah
+    }
+
+    await this.verifyNewUsername(username);
+
+    const query = {
+      text: 'UPDATE accounts SET username = $1 WHERE account_id = $2',
+      values: [username, accountId],
+    };
+
+    const result = await this._pool.query(query);
+
+    if (result.rowCount === 0) {
+      throw new NotFoundError(
+        'Gagal memperbarui username. Akun tidak ditemukan'
+      );
     }
   }
 }

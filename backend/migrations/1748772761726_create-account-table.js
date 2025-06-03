@@ -60,10 +60,14 @@ exports.up = (pgm) => {
     },
     job_title: {
       type: 'VARCHAR(100)',
-      notNull: true,
+      notNull: false,
     },
     age: {
       type: 'INTEGER',
+      notNull: false,
+    },
+    about_me: {
+      type: 'TEXT',
       notNull: false,
     },
     account_id: {

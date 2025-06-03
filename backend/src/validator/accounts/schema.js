@@ -9,8 +9,13 @@ const AccountPayloadSchema = Joi.object({
 });
 
 const PasswordPayloadSchema = Joi.object({
-  currentPassword: Joi.string().min(6).required(),
-  newPassword: Joi.string().min(6).required(),
-});
+  username: Joi.string().optional(),
+  newPassword: Joi.string().min(6).optional(),
+  currentPassword: Joi.when('newPassword', {
+    is: Joi.exist(),
+    then: Joi.string().min(6).required(),
+    otherwise: Joi.string().optional(),
+  }),
+}).or('username', 'newPassword');
 
 module.exports = { AccountPayloadSchema, PasswordPayloadSchema };

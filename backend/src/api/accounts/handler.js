@@ -86,20 +86,35 @@ class AccountsHandler {
 
   async putPasswordHandler(request, h) {
     const { accountId } = request.params;
-    const { currentPassword, newPassword } = request.payload;
-
-    this._validator.validatePasswordPayload(request.payload);
+    const { currentPassword, newPassword, username } = request.payload;
 
     try {
-      await this._service.updatePassword(
-        accountId,
-        currentPassword,
-        newPassword
-      );
+      if (newPassword) {
+        if (!currentPassword) {
+          throw new Error(
+            'Password lama wajib diisi jika ingin mengubah password'
+          );
+        }
+
+        this._validator.validatePasswordPayload({
+          currentPassword,
+          newPassword,
+        });
+
+        await this._service.updatePassword(
+          accountId,
+          currentPassword,
+          newPassword
+        );
+      }
+
+      if (username) {
+        await this._service.updateUsername(accountId, username);
+      }
 
       return {
         status: 'success',
-        message: 'Password berhasil diubah',
+        message: 'Password dan/atau username berhasil diubah',
       };
     } catch (error) {
       const response = h.response({
