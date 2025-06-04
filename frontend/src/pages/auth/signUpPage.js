@@ -1,13 +1,19 @@
 import { BASE_URL } from '../../config/config';
 import axios from 'axios';
 import notyf from '../../utils/notyf';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function SignUp() {
   const html = `
-    <section class="w-full min-h-screen flex items-center justify-center bg-gray-100 px-4">
-      <div class="max-w-md w-full bg-white p-8 rounded-xl shadow-md">
+    <section
+      class="w-full min-h-screen flex items-center justify-center bg-gray-100 px-4"
+      data-aos="fade-up"
+      data-aos-duration="800"
+    >
+      <div class="max-w-md w-full bg-white p-8 rounded-xl shadow-md" data-aos="zoom-in" data-aos-delay="200">
         <h2 class="text-2xl font-bold mb-6 text-center">Sign Up</h2>
-        <form id="signUpForm" class="space-y-4">
+        <form id="signup-form" class="space-y-4" novalidate>
           <div>
             <label for="username" class="block mb-1 font-medium">Username</label>
             <input type="text" id="username" name="username" required
@@ -21,16 +27,18 @@ export default function SignUp() {
           <div class="relative">
             <label for="password" class="block mb-1 font-medium">Password</label>
             <input type="password" id="password" name="password" required
-              class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
-            <button type="button" id="toggle-password" class="absolute right-3 top-9 text-gray-600">
+              class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 pr-10" />
+            <button type="button" id="toggle-password" aria-label="Toggle password visibility"
+              class="absolute right-3 top-9 text-gray-600 focus:outline-none">
               <i data-feather="eye"></i>
             </button>
           </div>
           <div class="relative">
             <label for="confirmPassword" class="block mb-1 font-medium">Confirm Password</label>
             <input type="password" id="confirmPassword" name="confirmPassword" required
-              class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
-            <button type="button" id="toggle-confirm-password" class="absolute right-3 top-9 text-gray-600">
+              class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 pr-10" />
+            <button type="button" id="toggle-confirm-password" aria-label="Toggle confirm password visibility"
+              class="absolute right-3 top-9 text-gray-600 focus:outline-none">
               <i data-feather="eye"></i>
             </button>
           </div>
@@ -47,7 +55,13 @@ export default function SignUp() {
   `;
 
   setTimeout(() => {
-    const form = document.querySelector('#signUpForm');
+    AOS.init();
+
+    if (window.feather) {
+      window.feather.replace();
+    }
+
+    const form = document.querySelector('#signup-form');
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
@@ -72,7 +86,6 @@ export default function SignUp() {
 
       try {
         const response = await axios.post(`${BASE_URL}/accounts`, payload);
-        // Cek username di response
         let welcomeName = null;
         if (response.data.username) {
           welcomeName = response.data.username;
@@ -88,7 +101,6 @@ export default function SignUp() {
 
         form.reset();
 
-        // Navigasi ke halaman login, misalnya hash route
         setTimeout(() => {
           window.location.hash = '#login';
         }, 1500);

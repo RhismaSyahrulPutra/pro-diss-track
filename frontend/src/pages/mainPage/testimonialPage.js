@@ -111,7 +111,7 @@ export default function TestimonialForm() {
       selectedRating = 0;
       updateStars(0);
 
-      await loadUsername(); // reload username
+      await loadUsername();
     } catch (err) {
       const msg = err.response?.data?.message || 'Gagal mengirim testimonial.';
       notyf.error(msg);

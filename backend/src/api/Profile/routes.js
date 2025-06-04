@@ -59,16 +59,18 @@ const routes = (handler) => [
     handler: handler.deleteProfilePhotoHandler,
   },
 
-  // STATIC FILES (uploaded photo access)
   {
     method: 'GET',
-    path: '/Profile/uploads/{param*}',
+    path: '/api/Profile/uploads/{param*}',
     handler: {
       directory: {
-        path: path.resolve(__dirname, 'uploads'),
+        path: path.resolve(__dirname, '..', 'Profile', 'uploads'),
         redirectToSlash: true,
         index: false,
       },
+    },
+    options: {
+      auth: false,
     },
   },
 ];

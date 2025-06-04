@@ -55,7 +55,6 @@ class ProfilesService {
         : `http://${process.env.HOST || 'localhost'}:${process.env.PORT || 5000}/Profile/uploads/${profile.profile_photo}`
       : null;
 
-    // Raw photo filename: hanya nama file, ekstrak dari profile_photo jika perlu
     const rawPhotoFilename = profile.profile_photo
       ? profile.profile_photo.startsWith('http')
         ? new URL(profile.profile_photo).pathname.split('/').pop()
@@ -142,7 +141,7 @@ class ProfilesService {
 
     await this._pool.query(deleteQuery);
 
-    return profile.profile_photo; // return path/filename untuk penghapusan fisik
+    return profile.profile_photo;
   }
 
   async deleteProfileByAccountId(account_id) {

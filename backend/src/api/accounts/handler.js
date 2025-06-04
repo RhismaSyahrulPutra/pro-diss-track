@@ -33,7 +33,7 @@ class AccountsHandler {
     return response;
   }
 
-  async getAllAccountsHandler(request, h) {
+  async getAllAccountsHandler() {
     const accounts = await this._service.getAllAccounts();
 
     return {
@@ -61,7 +61,7 @@ class AccountsHandler {
     };
   }
 
-  async putAccountHandler(request, h) {
+  async putAccountHandler(request) {
     this._validator.validateAccountPayload(request.payload);
     const { accountId } = request.params;
 
@@ -73,7 +73,7 @@ class AccountsHandler {
     };
   }
 
-  async deleteAccountHandler(request, h) {
+  async deleteAccountHandler(request) {
     const { accountId } = request.params;
 
     await this._service.deleteAccount(accountId);

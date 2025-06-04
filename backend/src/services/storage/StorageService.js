@@ -37,7 +37,7 @@ class StorageService {
   }
 
   getFilePath(filename) {
-    return path.join(this._folder, path.basename(filename));
+    return path.resolve(this._folder, path.basename(filename));
   }
 }
 

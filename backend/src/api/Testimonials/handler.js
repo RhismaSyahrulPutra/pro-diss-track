@@ -73,7 +73,6 @@ class TestimonialsHandler {
   }
 
   async putTestimonialByAccountHandler(request) {
-    // Validasi payload khusus PUT (testimonial_text, rating)
     this._validator.validateTestimonialPutPayload(request.payload);
 
     const { testimonial_text, rating } = request.payload;

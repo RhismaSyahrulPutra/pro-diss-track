@@ -5,7 +5,7 @@ export default function ProfilePreference() {
   const accountId = localStorage.getItem('accountId');
   const accessToken = localStorage.getItem('accessToken');
 
-  const profileUrl = `${BASE_URL}/profiles/${accountId}-`;
+  const profileUrl = `${BASE_URL}/profiles/${accountId}`;
   const photoUrl = `${profileUrl}/photo`;
 
   const html = `
@@ -65,26 +65,6 @@ export default function ProfilePreference() {
 
     let isProfileExist = false;
 
-    // Fungsi baru untuk fetch foto profil dengan auth
-    async function fetchProfilePhoto() {
-      try {
-        const response = await axios.get(photoUrl, {
-          headers: { Authorization: `Bearer ${accessToken}` },
-          responseType: 'blob',
-          params: { t: Date.now() }, // cache busting supaya gak pakai cache lama
-        });
-        if (response.status === 200 && response.data) {
-          const imageUrl = URL.createObjectURL(response.data);
-          photoPreview.src = imageUrl;
-        } else {
-          console.warn('Gagal ambil foto profil, status:', response.status);
-          photoPreview.src = 'https://via.placeholder.com/150';
-        }
-      } catch (err) {
-        console.error('Error fetch foto profil:', err);
-        photoPreview.src = 'https://via.placeholder.com/150';
-      }
-    }
     try {
       if (!accountId) throw new Error('accountId tidak ditemukan');
 
@@ -100,11 +80,12 @@ export default function ProfilePreference() {
         document.getElementById('age').value = profile.age || '';
         document.getElementById('about_me').value = profile.about_me || '';
 
-        await fetchProfilePhoto();
+        photoPreview.src =
+          profile.profile_photo_url || 'https://via.placeholder.com/150';
       } else {
         photoPreview.src = 'https://via.placeholder.com/150';
       }
-    } catch (error) {
+    } catch {
       console.warn('Profil tidak ditemukan, siap untuk dibuat baru.');
       photoPreview.src = 'https://via.placeholder.com/150';
     }

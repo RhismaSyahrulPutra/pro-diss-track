@@ -227,14 +227,21 @@ class ProfilesHandler {
       }
 
       const profile = await this._service.getProfileByAccountId(accountId);
-      if (!profile || !profile.profile_photo) {
+      if (!profile || !profile.profile_photo_url) {
         throw new NotFoundError('Foto profil tidak ditemukan');
       }
 
-      const photoUrl = new URL(profile.profile_photo);
+      console.log('profile_photo_url:', profile.profile_photo_url);
+
+      const photoUrl = new URL(profile.profile_photo_url);
       const filename = photoUrl.pathname.split('/').pop();
 
-      const filePath = this._storageService.getFilePath(filename); // pastikan method ini ada
+      const filePath = this._storageService.getFilePath(filename);
+
+      const fs = require('fs');
+      if (!fs.existsSync(filePath)) {
+        throw new NotFoundError('Foto profil tidak ditemukan');
+      }
 
       return h.file(filePath);
     } catch (error) {

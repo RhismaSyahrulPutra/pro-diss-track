@@ -209,7 +209,7 @@ class AccountsService {
     }
 
     if (username === currentAccount.username) {
-      return; // Tidak perlu update jika tidak berubah
+      return;
     }
 
     await this.verifyNewUsername(username);

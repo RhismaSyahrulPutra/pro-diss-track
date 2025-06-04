@@ -45,7 +45,7 @@ const lessonsService = new LessonsService();
 const tokenManager = TokenManager;
 
 const storageService = new StorageService(
-  path.resolve(__dirname, '..', 'api/Profile/uploads')
+  path.resolve(__dirname, '..', 'api', 'Profile', 'uploads')
 );
 
 const plugins = [

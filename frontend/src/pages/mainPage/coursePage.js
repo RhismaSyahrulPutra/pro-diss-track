@@ -14,7 +14,7 @@ export default async function Course() {
     photo: '/assets/images/profile.jpg',
   };
 
-  let greeting = 'Selamat datang!'; // Default
+  let greeting = 'Selamat datang!';
 
   if (!accountId || !accessToken) {
     notyf.error('Tidak dapat memuat akun. Silakan login ulang.');
@@ -30,10 +30,26 @@ export default async function Course() {
       if (account?.username) {
         user.name = account.username;
         localStorage.setItem('username', account.username);
+
+        try {
+          const profileRes = await axios.get(
+            `${BASE_URL}/profiles/${accountId}`,
+            {
+              headers: { Authorization: `Bearer ${accessToken}` },
+            },
+          );
+
+          const profile = profileRes?.data?.data?.profile;
+          if (profile?.profile_photo_url) {
+            user.photo = profile.profile_photo_url;
+          }
+        } catch {
+          console.warn('Foto profil tidak tersedia. Menggunakan default.');
+        }
       } else {
         notyf.error('Username tidak ditemukan di data akun.');
       }
-    } catch (err) {
+    } catch {
       notyf.error('Gagal memuat data akun.');
     }
   }
@@ -47,23 +63,26 @@ export default async function Course() {
       },
     });
     courses = courseRes?.data?.data?.courses || [];
-  } catch (err) {
+  } catch {
     notyf.error('Gagal memuat data kursus.');
   }
 
   const cardsHTML = courses
-    .map(
-      (course) => `
-        <div class="course-card cursor-pointer" data-id="${course.course_id}">
-          ${CourseCard({
-            title: course.course_title,
-            description: course.course_desc,
-            imageUrl:
-              course.course_photo || '/assets/images/course_placeholder.jpg',
-          })}
-        </div>
-      `,
-    )
+    .map((course) => {
+      const imageUrl = course.course_photo
+        ? `${import.meta.env.BASE_URL}${course.course_photo.replace(/^\//, '')}`
+        : `${import.meta.env.BASE_URL}assets/images/course_placeholder.jpg`;
+
+      return `
+      <div class="course-card cursor-pointer" data-id="${course.course_id}">
+        ${CourseCard({
+          title: course.course_title,
+          description: course.course_desc,
+          imageUrl,
+        })}
+      </div>
+    `;
+    })
     .join('');
 
   setTimeout(() => {

@@ -3,7 +3,6 @@ export default function Scanner() {
     const video = document.getElementById('cameraStream');
     const statusBadge = document.getElementById('cameraStatus');
 
-    // Coba akses kamera
     navigator.mediaDevices
       .getUserMedia({ video: true })
       .then((stream) => {
