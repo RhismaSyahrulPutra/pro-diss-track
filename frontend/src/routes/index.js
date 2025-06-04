@@ -91,7 +91,6 @@ export function setupRouting(navbarContainer, app) {
     }
   }
 
-  // Fungsi khusus untuk load lesson dari hash dengan query string
   async function loadLessonFromHash() {
     const hash = location.hash || '';
     const queryStart = hash.indexOf('?');
@@ -109,16 +108,13 @@ export function setupRouting(navbarContainer, app) {
     }
   }
 
-  // handleNavigation jadi async supaya bisa await loadLessonFromHash
   async function handleNavigation() {
     const fullHash = window.location.hash || '#home';
 
     stopUserCamera();
 
-    // Pisahkan rawPath & query string
     const [rawPath] = fullHash.split('?');
 
-    // Hilangkan slash setelah # jika ada
     const path = rawPath.startsWith('#/') ? '#' + rawPath.slice(2) : rawPath;
 
     if (path === '#login' || path === '#signup') {
@@ -170,7 +166,6 @@ export function setupRouting(navbarContainer, app) {
     }
   }
 
-  // Panggil handleNavigation dengan async wrapper supaya await jalan
   (async () => {
     await handleNavigation();
   })();

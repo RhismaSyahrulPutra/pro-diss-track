@@ -27,7 +27,6 @@ class LessonsService {
     lesson_content,
     course_id,
   }) {
-    // Cek course_id valid
     await this._verifyCourseExists(course_id);
 
     const lesson_id = `lesson-${nanoid(16)}`;
@@ -100,7 +99,6 @@ class LessonsService {
     lesson_id,
     { lesson_photo, lesson_title, lesson_desc, lesson_content, course_id }
   ) {
-    // Cek apakah lesson ada
     const checkQuery = {
       text: 'SELECT lesson_id FROM lessons WHERE lesson_id = $1',
       values: [lesson_id],

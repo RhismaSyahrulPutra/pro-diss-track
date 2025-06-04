@@ -56,7 +56,6 @@ class TestimonialsService {
   }
 
   async updateTestimonialByAccountId(account_id, { testimonial_text, rating }) {
-    // Cek testimonial dulu
     const checkQuery = {
       text: 'SELECT testimonial_id FROM testimonials WHERE account_id = $1',
       values: [account_id],

@@ -12,11 +12,11 @@ exports.up = (pgm) => {
   // Seed courses A-Z (dibagi 5 kelompok)
   pgm.sql(`
     INSERT INTO courses (course_id, course_title, course_desc, course_photo) VALUES
-    ('course-1', 'Materi A - E', 'Belajar huruf A sampai E', '/assets/images/course_placeholder.jpg'),
-    ('course-2', 'Materi F - J', 'Belajar huruf F sampai J', '/assets/images/course_placeholder.jpg'),
-    ('course-3', 'Materi K - O', 'Belajar huruf K sampai O', '/assets/images/course_placeholder.jpg'),
-    ('course-4', 'Materi P - T', 'Belajar huruf P sampai T', '/assets/images/course_placeholder.jpg'),
-    ('course-5', 'Materi U - Z', 'Belajar huruf U sampai Z', '/assets/images/course_placeholder.jpg');
+    ('course-1', 'Materi A - E', 'Belajar huruf isyarat A sampai E', '/assets/courses/course_banner1.png'),
+    ('course-2', 'Materi F - J', 'Belajar huruf isyarat F sampai J', '/assets/courses/course_banner2.png'),
+    ('course-3', 'Materi K - O', 'Belajar huruf isyarat K sampai O', '/assets/courses/course_banner3.png'),
+    ('course-4', 'Materi P - T', 'Belajar huruf isyarat P sampai T', '/assets/courses/course_banner4.png'),
+    ('course-5', 'Materi U - Z', 'Belajar huruf isyarat U sampai Z', '/assets/courses/course_banner5.png');
   `);
 
   // Seed lessons A-Z sesuai course_id

@@ -4,7 +4,7 @@ import { BASE_URL } from '../../config/config.js';
 export default async function Lesson(queryString = '') {
   const params = new URLSearchParams(queryString);
   const courseId = params.get('id');
-  const lessonIndex = parseInt(params.get('lesson') || '0'); // default: lesson pertama
+  const lessonIndex = parseInt(params.get('lesson') || '0');
 
   const accountId = localStorage.getItem('accountId');
   const accessToken = localStorage.getItem('accessToken');
@@ -46,7 +46,6 @@ export default async function Lesson(queryString = '') {
     const lessonContent =
       currentLesson.lesson_content || '<p>Konten tidak tersedia.</p>';
 
-    // Bangun link URL navigasi
     const baseLink = `#/lesson?id=${courseId}`;
     const prevLink = `${baseLink}&lesson=${index - 1}`;
     const nextLink = `${baseLink}&lesson=${index + 1}`;
