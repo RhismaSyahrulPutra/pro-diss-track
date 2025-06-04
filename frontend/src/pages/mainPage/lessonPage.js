@@ -39,8 +39,9 @@ export default async function Lesson(queryString = '') {
     const index = Math.min(Math.max(lessonIndex, 0), lessons.length - 1);
     const currentLesson = lessons[index];
 
-    const lessonPhoto =
-      currentLesson.lesson_photo || '/assets/images/lesson-placeholder.jpg';
+    const lessonPhoto = currentLesson.lesson_photo
+      ? `${import.meta.env.BASE_URL}${currentLesson.lesson_photo.replace(/^\//, '')}`
+      : `${import.meta.env.BASE_URL}assets/images/lesson-placeholder.jpg`;
     const lessonTitle = currentLesson.lesson_title || 'Judul Pelajaran';
     const lessonDesc = currentLesson.lesson_desc || '';
     const lessonContent =
@@ -57,7 +58,7 @@ export default async function Lesson(queryString = '') {
     <!-- Kiri: Card Summary -->
     <div class="w-1/3">
       <div class="bg-white p-6 rounded-lg shadow max-w-md">
-        <img src="${lessonPhoto}" alt="${lessonTitle}" class="w-full h-48 object-cover rounded-md mb-4" />
+        <img src="${lessonPhoto}" alt="${lessonTitle}" class="w-full h-100 object-cover rounded-md mb-4" />
         <h2 class="text-2xl font-bold mb-2 text-blue-600">${lessonTitle}</h2>
         <p class="text-gray-600">${lessonDesc}</p>
       </div>
