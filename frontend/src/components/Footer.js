@@ -29,10 +29,12 @@ export default function Footer() {
               <div>
                 <h4 class="text-xl font-semibold mb-5 tracking-wide border-b border-gray-700 pb-2">Anggota Kelompok</h4>
                 <ul class="space-y-3 text-gray-400 text-sm">
-                  <li><a href="https://www.linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors duration-300">John Doe</a></li>
-                  <li><a href="https://www.linkedin.com/in/janesmith" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors duration-300">Jane Smith</a></li>
-                  <li><a href="https://www.linkedin.com/in/michaeljohnson" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors duration-300">Michael Johnson</a></li>
-                  <li><a href="https://www.linkedin.com/in/emilydavis" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors duration-300">Emily Davis</a></li>
+                  <li><a href="https://www.linkedin.com/in/robertinogladdennarendra" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors duration-300">Robertino Gladden Narendra</a></li>
+                  <li><a href="https://www.linkedin.com/in/dyna-akmila" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors duration-300">Dyna akmila</a></li>
+                  <li><a href="https://www.linkedin.com/in/rasy" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors duration-300">Muhammad Rasyid Nurrohim</a></li>
+                  <li><a href="https://www.linkedin.com/in/rhisma-syahrul-putra" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors duration-300">Rhisma Syahrul Putra</a></li>
+                  <li><a href="https://www.linkedin.com/in/aditya-ohara" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors duration-300">Aditya Ramadhan </a></li>
+                  <li><a href="https://www.linkedin.com/in/mohamad-zaelani-wira-kusuma-4859b3262" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors duration-300">Mohamad Zaelani Wira Kusuma</a></li>
                 </ul>
               </div>
             </div>
