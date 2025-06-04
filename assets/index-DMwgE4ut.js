@@ -479,13 +479,13 @@ PERFORMANCE OF THIS SOFTWARE.
       <h1>Anda harus login untuk mengakses halaman ini.</h1>
     </section>`;try{const s=(await P.get(`${Q}/courses/${t}/lessons`,{headers:{Authorization:`Bearer ${a}`}})).data.data.lessons;if(!s||s.length===0)return`<section class="py-24 min-h-screen px-4 bg-gray-50">
         <h1>Tidak ada pelajaran ditemukan.</h1>
-      </section>`;const d=Math.min(Math.max(o,0),s.length-1),l=s[d],c=l.lesson_photo||"/assets/images/lesson-placeholder.jpg",u=l.lesson_title||"Judul Pelajaran",f=l.lesson_desc||"",y=l.lesson_content||"<p>Konten tidak tersedia.</p>",p=`#/lesson?id=${t}`,m=`${p}&lesson=${d-1}`,h=`${p}&lesson=${d+1}`;return`
+      </section>`;const d=Math.min(Math.max(o,0),s.length-1),l=s[d],c=l.lesson_photo?`/pro-diss-track/${l.lesson_photo.replace(/^\//,"")}`:"/pro-diss-track/assets/images/lesson-placeholder.jpg",u=l.lesson_title||"Judul Pelajaran",f=l.lesson_desc||"",y=l.lesson_content||"<p>Konten tidak tersedia.</p>",p=`#/lesson?id=${t}`,m=`${p}&lesson=${d-1}`,h=`${p}&lesson=${d+1}`;return`
       <section class="py-24 min-h-screen px-4 overflow-x-hidden bg-gray-50">
   <div class="flex gap-8 items-start">
     <!-- Kiri: Card Summary -->
     <div class="w-1/3">
       <div class="bg-white p-6 rounded-lg shadow max-w-md">
-        <img src="${c}" alt="${u}" class="w-full h-48 object-cover rounded-md mb-4" />
+        <img src="${c}" alt="${u}" class="w-full h-100 object-cover rounded-md mb-4" />
         <h2 class="text-2xl font-bold mb-2 text-blue-600">${u}</h2>
         <p class="text-gray-600">${f}</p>
       </div>
