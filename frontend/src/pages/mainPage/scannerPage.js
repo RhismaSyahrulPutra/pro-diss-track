@@ -21,50 +21,40 @@ export default function Scanner() {
   }, 0);
 
   return `
-    <section
-      class="h-screen flex flex-col bg-gray-50 px-4 py-20 overflow-hidden"
-      data-aos="fade-up"
-      data-aos-duration="800"
-    >
-      <main class="flex flex-col items-center justify-center gap-6 w-full flex-grow">
-        <div
-          class="relative"
-          data-aos="fade-up"
-          data-aos-delay="200"
-          data-aos-duration="800"
-        >
+    <section class="min-h-dvh bg-gray-50 flex items-center justify-center px-4 md:px-6 pt-20">
+      <div class="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+
+        <!-- Kamera -->
+        <div class="relative w-full rounded-xl overflow-hidden border-4 border-indigo-300 shadow-xl max-h-[80vh] aspect-video md:aspect-[4/3]">
           <video
             id="cameraStream"
             autoplay
             playsinline
             muted
-            class="w-full max-w-2xl rounded-xl shadow-2xl object-cover border-4 border-indigo-300"
-            style="aspect-ratio: 4 / 3; max-height: 60vh;"
+            class="w-full h-full object-cover"
           ></video>
           <div
             id="cameraStatus"
-            class="absolute bottom-2 right-2 bg-red-100 text-red-700 text-sm px-3 py-1 rounded shadow transition-colors duration-300"
+            class="absolute bottom-3 right-3 bg-red-100 text-red-700 text-xs sm:text-sm px-3 py-1 rounded shadow transition-colors duration-300"
           >
             Memeriksa kamera...
           </div>
         </div>
 
-        <div
-          id="detectedCard"
-          class="bg-white border border-gray-200 rounded-xl shadow-xl p-6 w-full max-w-lg text-center transition-all duration-300 ease-in-out hover:shadow-2xl"
-          data-aos="fade-up"
-          data-aos-delay="400"
-          data-aos-duration="800"
-        >
-          <p class="text-md font-medium text-gray-700 mb-3">Huruf yang Anda buat adalah:</p>
+        <!-- Deteksi Huruf -->
+        <div class="w-full max-h-[80vh] bg-white p-6 md:p-8 rounded-xl shadow-xl border border-gray-200 text-center flex flex-col justify-center">
+          <h2 class="text-base sm:text-lg font-semibold text-gray-700 mb-4">
+            Huruf yang Anda buat adalah:
+          </h2>
           <p
             id="detectedLetter"
-            class="text-5xl font-black text-blue-700 animate-pulse"
+            class="text-[clamp(3rem,8vw,6rem)] font-extrabold text-blue-600 animate-pulse"
           >
             A
           </p>
         </div>
-      </main>
+
+      </div>
     </section>
   `;
 }
