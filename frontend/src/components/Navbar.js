@@ -60,13 +60,22 @@ export function attachNavbarListeners() {
     menuToggle.addEventListener('click', () => {
       mobileMenu.classList.toggle('hidden');
     });
+
+    const mobileLinks = mobileMenu.querySelectorAll('a, button');
+    mobileLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
   }
 
   const loginBtn = document.getElementById('login-button');
   const loginBtnMobile = document.getElementById('login-button-mobile');
+
   function loginHandler() {
     window.location.hash = '#login';
   }
+
   if (loginBtn) loginBtn.addEventListener('click', loginHandler);
   if (loginBtnMobile) loginBtnMobile.addEventListener('click', loginHandler);
 }

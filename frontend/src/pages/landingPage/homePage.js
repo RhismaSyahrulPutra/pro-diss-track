@@ -2,7 +2,7 @@ import 'aos/dist/aos.css';
 
 export default function Home() {
   return `
-    <section class="section-home py-20 sm:py-24 min-h-screen overflow-x-hidden max-w-full px-4 sm:px-8 bg-gradient-to-b from-blue-50 to-white">
+    <section class="section-home py-24 sm:py-24 min-h-screen overflow-x-hidden max-w-full px-4 sm:px-8 bg-gradient-to-b from-blue-50 to-white">
       <div 
         class="w-full max-w-screen-xl mx-auto bg-white/90 border border-black/10 backdrop-blur-md p-6 sm:p-12 rounded-xl shadow-lg text-center flex flex-col items-center justify-center min-h-[82dvh] box-border"
         data-aos="fade-up"
