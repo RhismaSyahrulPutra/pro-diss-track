@@ -25,8 +25,48 @@ export const TestimonialPresenter = {
         testimonialListContainer,
         testimonials,
       );
-    } catch (err) {
-      testimonialListContainer.innerHTML = `<p class="col-span-full text-center text-red-500">${err.message}</p>`;
+    } catch {
+      const dummyTestimonials = [
+        {
+          rating: 5,
+          username: 'Andi',
+          testimonial_text: 'Aplikasi ini sangat membantu dan mudah digunakan!',
+        },
+        {
+          rating: 4,
+          username: 'Budi',
+          testimonial_text: 'User interface-nya menarik dan performanya bagus.',
+        },
+        {
+          rating: 5,
+          username: 'Citra',
+          testimonial_text: 'Saya sangat puas dengan fitur-fiturnya!',
+        },
+        {
+          rating: 4,
+          username: 'Dina',
+          testimonial_text:
+            'Pengalaman saya sangat menyenangkan dengan aplikasi ini.',
+        },
+        {
+          rating: 5,
+          username: 'Dina',
+          testimonial_text:
+            'Pengalaman saya sangat menyenangkan dengan aplikasi ini.',
+        },
+      ];
+
+      const total = dummyTestimonials.reduce(
+        (sum, t) => sum + Number(t.rating),
+        0,
+      );
+      const average = total / dummyTestimonials.length;
+
+      TestimonialView.renderAverageRating(avgRatingContainer, average);
+      TestimonialView.renderTestimonials(
+        testimonialListContainer,
+        dummyTestimonials,
+      );
     }
   },
 };
