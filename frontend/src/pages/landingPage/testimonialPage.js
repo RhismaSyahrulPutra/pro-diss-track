@@ -5,6 +5,24 @@ export default function Testimonial() {
   setTimeout(() => {
     TestimonialPresenter.init();
     feather.replace();
+
+    // Scroll handler untuk carousel
+    const prevBtn = document.getElementById('testimonial-prev');
+    const nextBtn = document.getElementById('testimonial-next');
+    const container = document.getElementById('testimonial-list');
+
+    if (prevBtn && nextBtn && container) {
+      prevBtn.addEventListener('click', () => {
+        container.scrollBy({
+          left: -container.offsetWidth,
+          behavior: 'smooth',
+        });
+      });
+
+      nextBtn.addEventListener('click', () => {
+        container.scrollBy({ left: container.offsetWidth, behavior: 'smooth' });
+      });
+    }
   }, 0);
 
   return `
@@ -38,14 +56,25 @@ export default function Testimonial() {
           <p class="text-center text-base text-gray-500">Memuat rata-rata rating...</p>
         </div>
 
+        <!-- Tombol navigasi -->
+        <div class="flex justify-end items-center gap-3 mb-4">
+          <button id="testimonial-prev" class="p-2 rounded-full bg-gray-200 hover:bg-gray-300">
+            <i data-feather="chevron-left" class="w-5 h-5"></i>
+          </button>
+          <button id="testimonial-next" class="p-2 rounded-full bg-gray-200 hover:bg-gray-300">
+            <i data-feather="chevron-right" class="w-5 h-5"></i>
+          </button>
+        </div>
+
         <div
           id="testimonial-list"
-          class="w-full max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-2 sm:px-4 box-border"
+          class="hide-scrollbar flex gap-6 overflow-x-auto snap-x snap-mandatory px-2 sm:px-4 box-border scroll-smooth pb-4"
           data-aos="fade-up"
           data-aos-delay="300"
           data-aos-duration="800"
         >
-          <p class="col-span-full text-center text-base text-gray-500">Memuat testimonial...</p>
+
+          <p class="text-center text-sm text-gray-500 w-full">Memuat testimonial...</p>
         </div>
       </div>
     </section>
