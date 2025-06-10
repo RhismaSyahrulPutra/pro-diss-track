@@ -1,32 +1,28 @@
 import './styles/style.css';
 import './styles/tailwind.css';
-import javascriptLogo from './assets/javascript.svg';
-import viteLogo from '/vite.svg';
-import { setupCounter } from './counter.js';
-
-// Import AOS
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import feather from 'feather-icons';
 
-document.querySelector('#app').innerHTML = `
-  <div class="text-center p-4">
-    <a href="https://vite.dev" target="_blank" class="m-2">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="m-2">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1 class="text-3xl font-bold mt-4">Hello Vite!</h1>
-    <div class="card mt-4 p-6 bg-gray-100 rounded-lg shadow-lg">
-      <button id="counter" type="button" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"></button>
-    </div>
-    <p class="read-the-docs mt-4 text-lg text-gray-600">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`;
+import notyf from './utils/notyf.js';
 
-setupCounter(document.querySelector('#counter'));
+import { setupRouting } from './routes/index.js';
 
-// init AOS
-AOS.init();
+AOS.init({ once: true });
+feather.replace();
+
+const navbarContainer = document.querySelector('#navbar');
+const app = document.querySelector('#app');
+
+setupRouting(navbarContainer, app);
+
+notyf.success('Aplikasi siap digunakan!');
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register('/pro-diss-track/service-worker.js')
+    .then((reg) => console.log('Service Worker registered:', reg))
+    .catch((err) => console.error('Service Worker registration failed:', err));
+}
+
+export { notyf };

@@ -8,17 +8,19 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
-    "lint:fix": "eslint ./src --ext .js,.jsx,.ts,.tsx --fix",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src",
     "deploy": "vite build && gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.27.1",
+    "@eslint/js": "^9.26.0",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.26.0",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-prettier": "^5.4.0",
     "gh-pages": "^6.3.0",
+    "globals": "^16.1.0",
     "postcss": "^8.5.3",
     "prettier": "^3.5.3",
     "tailwindcss": "^3.4.17",
@@ -27,6 +29,11 @@
     "vite-plugin-static-copy": "^2.3.1"
   },
   "dependencies": {
-    "aos": "^2.3.4"
+    "aos": "^2.3.4",
+    "axios": "^1.9.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.5.0",
+    "feather-icons": "^4.29.2",
+    "notyf": "^3.10.0"
   }
 }
