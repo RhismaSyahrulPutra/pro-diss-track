@@ -1,0 +1,83 @@
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:16:24] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:16:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:16:34] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:root:[2025-06-11 01:16:39.510407] Predicted: F (0.2172)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:16:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:16:48.588154] Predicted: F (0.1532)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:16:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:16:51.879008] Predicted: F (0.1804)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:16:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:16:54.011899] Predicted: F (0.1692)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:16:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:16:55.484532] Predicted: F (0.1720)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:16:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:17:23.291514] Predicted: F (0.2109)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:17:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:17:27.433567] Predicted: F (0.2239)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:17:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:17:32.491415] Predicted: F (0.1895)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:17:32] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:17:33] "GET / HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:17:37.122463] Predicted: F (0.1879)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:17:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:18:47.467825] Predicted: F (0.1150)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:18:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:18:49.894723] Predicted: Z (0.1628)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:18:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:18:52.273217] Predicted: Z (0.1918)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:18:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:18:56.572471] Predicted: F (0.1486)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:18:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:19:02.337075] Predicted: F (0.1561)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:19:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:19:12.570389] Predicted: F (0.1939)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:19:12] "POST /predict HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:[2025-06-11 01:20:02.154326] Predicted: C (0.9295)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:20:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:20:02.999288] Predicted: C (0.9137)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:20:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:20:30.895447] Predicted: C (0.9061)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:20:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:20:33.517903] Predicted: C (0.9276)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:20:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:20:39.552878] Predicted: C (0.9017)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:20:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:20:43.840856] Predicted: C (0.9509)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:20:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:20:48.575931] Predicted: C (0.9403)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:20:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:20:50.044265] Predicted: C (0.9557)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:20:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:21:01.955074] Predicted: C (0.8795)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:21:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:21:06.235985] Predicted: C (0.9314)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:21:06] "POST /predict HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:21:37] "GET / HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:21:40.693003] Predicted: F (0.1393)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:21:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:21:45.043135] Predicted: B (0.1328)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:21:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:21:50.890343] Predicted: F (0.2042)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:21:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:21:55.096817] Predicted: I (0.1535)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:21:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:22:01.413872] Predicted: I (0.1021)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:22:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:22:31.887844] Predicted: F (0.1268)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:22:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:22:36.495516] Predicted: F (0.1390)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:22:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 01:22:49.864868] Predicted: F (0.1089)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:22:49] "POST /predict HTTP/1.1" 200 -
