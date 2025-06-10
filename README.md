@@ -170,7 +170,15 @@ Follow these steps to set up and run the backend application:
     *   **Redis Configuration:**
         *   `REDIS_SERVER`: The Redis server address (e.g., `localhost`).
         *   `REDIS_PORT`: The Redis port number (e.g., `6379`).
+        *   
+3.  **Create Database:**
 
+    Create database:
+
+    ```bash
+    npm run db:create
+    ```
+    
 3.  **Run Database Migrations (UP):**
 
     Apply database migrations to set up the database schema:
