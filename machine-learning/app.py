@@ -1,21 +1,31 @@
-
 from flask import Flask, render_template, request, jsonify
 from keras.models import load_model
 from keras.preprocessing import image
+from PIL import Image
 import os
 import numpy as np
-from PIL import Image
 from datetime import datetime
+import logging
 
 app = Flask(__name__)
 
-
-# Load model
-model = load_model("model_bisindo.h5")
-
 UPLOAD_FOLDER = 'static/uploads/'
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png'}
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config['MAX_CONTENT_LENGTH'] = 2 * 1024 * 1024
+
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
+logging.basicConfig(filename='prediction.log', level=logging.INFO)
+
+try:
+    model = load_model("model_bisindo.h5")
+    print("[INFO] Model berhasil dimuat.")
+except Exception as e:
+    print("[ERROR] Gagal memuat model:", e)
+    model = None
+
+class_labels = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -26,31 +36,45 @@ def main():
 
 @app.route("/predict", methods=['POST'])
 def predict():
+    if model is None:
+        return jsonify({'message': 'Model tidak tersedia'}), 500
+
     if 'file' not in request.files:
-        return jsonify({'message': 'file tidak ditemukan'}), 400
-    
+        return jsonify({'message': 'File tidak ditemukan'}), 400
+
     file = request.files['file']
     if file and allowed_file(file.filename):
-        filename = datetime.now().strftime("%Y%m%d%H%M%S") + ".png"
-        filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-        file.save(filepath)
-        
-        img = Image.open(filepath).convert('RGB')
-        img = img.resize((128, 128))  
-        img_array = np.array(img) / 127.5 - 1 
-        img_array = np.expand_dims(img_array, axis=0)
+        try:
+            img_check = Image.open(file)
+            img_check.verify()
+            ext = file.filename.rsplit('.', 1)[1].lower()
+            filename = datetime.now().strftime("%Y%m%d%H%M%S") + "." + ext
+            filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file.seek(0)
+            file.save(filepath)
 
-        # Predict
-        pred = model.predict(img_array)
-        # class labal
-        class_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-        prediction = class_labels[np.argmax(pred)]
+            img = image.load_img(filepath, target_size=(128, 128))
+            img_array = image.img_to_array(img) / 255.0
+            img_array = np.expand_dims(img_array, axis=0)
 
-        return jsonify({
-            'prediction': prediction,
-            'img_url': filepath
-        })
-    return jsonify({'message': 'format tidak valid'}), 400
+            pred = model.predict(img_array)
+            pred_index = int(np.argmax(pred))
+            prediction = class_labels[pred_index]
+            confidence = float(np.max(pred))
+
+            logging.info(f"[{datetime.now()}] Predicted: {prediction} ({confidence:.4f})")
+
+            return jsonify({
+                'prediction': prediction,
+                'confidence': confidence,
+                'img_url': filepath
+            })
+
+        except Exception as e:
+            print("[ERROR] Saat prediksi:", e)
+            return jsonify({'message': 'Gagal memproses gambar'}), 500
+
+    return jsonify({'message': 'Format file tidak valid'}), 400
 
 if __name__ == '__main__':
     app.run(debug=True)
