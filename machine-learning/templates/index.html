@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediksi Bahasa Isyarat BISINDO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 50px;
+        }
+        img {
+            max-width: 300px;
+            margin-top: 20px;
+            display: none;
+        }
+        #uploadedImage {
+            max-width: 300px;
+            margin-top: 20px;
+            display: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #videoElement {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+        
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px; 
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediksi Bahasa Isyarat BISINDO/SIBI</h1>
+
+    <!-- camera -->
+    <video id="videoElement" autoplay></video><br><br>
+    <button onclick="takeSnapshot()">Ambil Foto</button><br><br>
+    
+    <!-- tampilan gambar yang sudah di ambil -->
+    <img id="uploadedImage" src="" alt="Uploaded Image"/>
+
+    <!-- button -->
+    <div class="button-container">
+        <button onclick="removePhoto()">Hapus Foto</button>
+        <button onclick="predict()">Prediksi</button>
+    </div>
+
+    <script>
+    // start kamera
+    const video = document.getElementById('videoElement');
+
+    // mengakses izin kamera
+    navigator.mediaDevices.getUserMedia({ video: true })
+        .then(function(stream) {
+            video.srcObject = stream;
+        })
+        .catch(function(error) {
+            console.log("Error accessing camera: " + error);
+        });
+
+    // fungsi pengambilan foto
+    function takeSnapshot() {
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        const uploadedImage = document.getElementById('uploadedImage');
+        
+        // ukuran 
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+
+        // Menggambar frame dari video ke canvas
+        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+        // Mengambil gambar sebagai URL
+        const dataUrl = canvas.toDataURL('image/png');
+
+        // tampilan gambar yang dihasilkan 
+        uploadedImage.src = dataUrl;
+        uploadedImage.style.display = 'block';
+    }
+
+    // fungsi untuk menghapus foto
+    function removePhoto() {
+        const uploadedImage = document.getElementById('uploadedImage');
+        uploadedImage.src = ""; 
+        uploadedImage.style.display = 'none';
+    }
+
+    // prediksi berdasarakn pengambilan foto
+    async function predict() {
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        const videoElement = document.getElementById('videoElement');
+        
+        canvas.width = videoElement.videoWidth;
+        canvas.height = videoElement.videoHeight;
+        ctx.drawImage(videoElement, 0, 0, canvas.width, canvas.height);
+
+        
+        canvas.toBlob(async function(blob) {
+            const formData = new FormData();
+            formData.append("file", blob, "snapshot.png");
+
+            const res = await fetch("/predict", {
+                method: "POST",
+                body: formData
+            });
+
+            // alert hasil prediksi
+            if (res.ok) {
+                const data = await res.json();
+                alert("Prediksi: " + data.prediction);
+            } else {
+                const errorData = await res.json();
+                alert("Terjadi kesalahan: " + errorData.message);
+            }
+        }, "image/png");
+    }
+    </script>
+</body>
+</html>
