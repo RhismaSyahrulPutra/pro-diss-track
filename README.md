@@ -1,6 +1,16 @@
 <h1 align="center">Pro Diss Track</h1>
 
-Di Indonesia, terdapat sekitar 2 juta penyandang disabilitas rungu wicara, menurut data Kementerian Sosial Republik Indonesia. Mereka merupakan bagian signifikan dari masyarakat yang membutuhkan komunikasi inklusif. Namun, media pembelajaran bahasa isyarat untuk orang normal yang ingin belajar berkomunikasi dengan mereka masih sangat terbatas. Kurangnya akses terhadap platform edukatif yang mudah dipahami dan interaktif menyebabkan kesenjangan komunikasi dan menjadi hambatan dalam mendorong inklusi sosial antara masyarakat umum dan penyandang disabilitas rungu wicara.
+**Anggota Team: CC25-CF216**
+* (ML) MC012D5Y2381 - Robertino Gladden Narendra - Universitas Telkom
+* (ML) MC575D5X2254 - Dyna Akmila - Universitas Ma’soem
+* (ML) MC299D5Y1215 - Muhammad Rasyid Nurrohim - Universitas Pendidikan Indonesia
+* (FEBE) FC299D5Y1685 - Rhisma Syahrul Putra - Universitas Pendidikan Indonesia
+* (FEBE) FC822D5Y0016 - Mohamad Zaelani Wira Kusuma - Universitas  ASM Ariyanti
+* (FEBE) FC299D5Y0685 - Aditya Ramadhan - Universitas Pendidikan Indonesia
+<br/>
+
+**Latar Belakang:**
+<p align='justify'>Di Indonesia, terdapat sekitar 2 juta penyandang disabilitas rungu wicara, menurut data Kementerian Sosial Republik Indonesia. Mereka merupakan bagian signifikan dari masyarakat yang membutuhkan komunikasi inklusif. Namun, media pembelajaran bahasa isyarat untuk orang normal yang ingin belajar berkomunikasi dengan mereka masih sangat terbatas. Kurangnya akses terhadap platform edukatif yang mudah dipahami dan interaktif menyebabkan kesenjangan komunikasi dan menjadi hambatan dalam mendorong inklusi sosial antara masyarakat umum dan penyandang disabilitas rungu wicara.</p>
 
 **Tujuan Proyek:**
 
@@ -197,5 +207,5 @@ Follow these steps to set up and run the backend application:
 
     These commands will automatically format your code according to the project's style guidelines and identify any linting issues.  Make sure to address any linting errors before committing your changes.
 
-### Backend Setup Instructions:
+### Machine Learning Setup Instructions:
 
