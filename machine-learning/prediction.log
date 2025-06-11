@@ -81,3 +81,238 @@ INFO:root:[2025-06-11 01:22:36.495516] Predicted: F (0.1390)
 INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:22:36] "POST /predict HTTP/1.1" 200 -
 INFO:root:[2025-06-11 01:22:49.864868] Predicted: F (0.1089)
 INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 01:22:49] "POST /predict HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 17:57:38] "[33mGET /machine-learning/templates/index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 17:57:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 17:57:42] "[33mGET /machine-learning/templates/index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 17:57:43] "[33mGET /machine-learning/templates/index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 17:57:44] "[33mGET /machine-learning/templates/index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 17:57:45] "[33mGET /machine-learning/templates/index.html HTTP/1.1[0m" 404 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 17:58:08] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:root:[2025-06-11 18:15:05.108711] Predicted: T (0.2689)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:15:05] "POST /predict HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:root:[2025-06-11 18:17:08.137850] Predicted: Z (0.7185)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:17:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:17:21.202472] Predicted: A (0.2825)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:17:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:17:34.485517] Predicted: T (0.2854)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:17:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:17:51.568775] Predicted: F (0.3381)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:17:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:19:56.149259] Predicted: K (0.1935)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:19:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:21:06.567235] Predicted: Z (0.5458)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:21:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:21:11.794595] Predicted: Q (0.2565)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:21:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:21:58.786035] Predicted: F (0.2933)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:21:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:23:36.377737] Predicted: F (0.1983)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:23:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:24:54.707475] Predicted: Z (0.3661)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:24:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:25:09.249504] Predicted: Z (0.1920)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:25:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:26:19.266819] Predicted: Z (0.2804)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:26:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:26:24.600136] Predicted: F (0.1970)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:26:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:27:33.340196] Predicted: F (0.2904)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:27:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-11 18:29:27.128030] Predicted: F (0.3367)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:29:27] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 800-124-267
+INFO:root:[2025-06-11 18:32:12.612418] Predicted: F (0.2024)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:32:12] "POST /predict HTTP/1.1" 200 -

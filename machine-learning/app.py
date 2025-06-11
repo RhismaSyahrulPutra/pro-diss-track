@@ -6,8 +6,10 @@ import os
 import numpy as np
 from datetime import datetime
 import logging
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app, origins=["http://localhost:5173"])
 
 UPLOAD_FOLDER = 'static/uploads/'
 ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png'}
@@ -32,7 +34,7 @@ def allowed_file(filename):
 
 @app.route("/", methods=['GET'])
 def main():
-    return render_template("index.html")
+    return render_template("../frontend/dist/index.html")
 
 @app.route("/predict", methods=['POST'])
 def predict():
