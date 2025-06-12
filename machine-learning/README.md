@@ -60,7 +60,7 @@ Hasil ini menunjukkan bahwa model berhasil belajar dengan baik dan memiliki pote
 ### Confusion matrix
 Berdasarkan Confusion matrix menunjukkan kinerja model dalam mengklasifikasikan gambar berdasarkan label yang benar dan prediksi model. Setiap baris mewakili kelas yang sebenarnya (True Label), sementara setiap kolom menunjukkan kelas yang diprediksi oleh model (Predicted Label). Nilai diagonal utama (dari kiri atas ke kanan bawah) menunjukkan jumlah prediksi yang benar untuk setiap kelas.
 
-Dari confusion matrix yang dihasilkan, kita dapat melihat bahwa model menunjukkan performa yang sangat baik dalam mengklasifikasikan huruf-huruf BISINDO, dengan sebagian besar nilai berada di sepanjang diagonal, yang menandakan prediksi yang benar. Beberapa kesalahan kecil terjadi pada kelas-kelas tertentu, namun secara keseluruhan, model telah mengenali sebagian besar gerakan dengan tepat.
+Dari confusion matrix yang dihasilkan, kita dapat melihat bahwa model menunjukkan performa yang cukup baik dalam mengklasifikasikan huruf-huruf BISINDO, dengan sebagian besar nilai berada di sepanjang diagonal, yang menandakan prediksi yang benar. Beberapa kesalahan kecil terjadi pada kelas-kelas tertentu, namun secara keseluruhan, model telah mengenali sebagian besar gerakan dengan tepat.
 ![image](https://github.com/RhismaSyahrulPutra/pro-diss-track/blob/Rasyid/machine-learning/static/confusion-matrix.png?raw=true)
 ### Classification Report
 Classification report memberikan metrik yang lebih mendalam terkait kinerja model. Berikut adalah penjelasan beberapa metrik yang terkandung dalam classification report:
