@@ -21,29 +21,19 @@ export default function Scanner() {
         console.error('Tidak bisa mengakses kamera:', err);
       });
 
-    document.getElementById('btnSnapshot').onclick = () => {
+    document.getElementById('btnCaptureAndPredict').onclick = async () => {
       const canvas = document.createElement('canvas');
       const ctx = canvas.getContext('2d');
       canvas.width = video.videoWidth;
       canvas.height = video.videoHeight;
       ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
       const dataUrl = canvas.toDataURL('image/png');
+
+      // Tampilkan preview gambar
       uploadedImage.src = dataUrl;
       uploadedImage.style.display = 'block';
-    };
 
-    document.getElementById('btnRemove').onclick = () => {
-      uploadedImage.src = '';
-      uploadedImage.style.display = 'none';
-      predictionResult.innerText = '';
-    };
-
-    document.getElementById('btnPredict').onclick = async () => {
-      const canvas = document.createElement('canvas');
-      const ctx = canvas.getContext('2d');
-      canvas.width = video.videoWidth;
-      canvas.height = video.videoHeight;
-      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+      // Lakukan prediksi
       canvas.toBlob(async (blob) => {
         const formData = new FormData();
         formData.append('file', blob, 'snapshot.png');
@@ -64,6 +54,12 @@ export default function Scanner() {
         }
       }, 'image/png');
     };
+
+    document.getElementById('btnRemove').onclick = () => {
+      uploadedImage.src = '';
+      uploadedImage.style.display = 'none';
+      predictionResult.innerText = '';
+    };
   }, 0);
 
   return `
@@ -80,9 +76,10 @@ export default function Scanner() {
           </div>
 
           <div class="flex flex-wrap justify-center gap-4">
-            <button id="btnSnapshot" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">Ambil Foto</button>
+            <button id="btnCaptureAndPredict" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+              Ambil & Prediksi
+            </button>
             <button id="btnRemove" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-gray-600 transition">Hapus Foto</button>
-            <button id="btnPredict" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Prediksi</button>
           </div>
         </div>
 
@@ -97,7 +94,6 @@ export default function Scanner() {
           <h2 class="text-lg font-semibold text-gray-700">Huruf yang Anda buat adalah:</h2>
           <p id="detectedLetter" class="text-[clamp(3rem,8vw,6rem)] font-extrabold text-blue-600 animate-pulse">–</p>
         </div>
-
 
       </div>
     </section>

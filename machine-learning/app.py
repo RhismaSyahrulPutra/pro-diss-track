@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 from keras.models import load_model
 from keras.preprocessing import image
-from PIL import Image
+from PIL import Image, ImageOps, ImageFilter
 import os
 import numpy as np
 from datetime import datetime
@@ -21,13 +21,13 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 logging.basicConfig(filename='prediction.log', level=logging.INFO)
 
 try:
-    model = load_model("model_bisindo.h5")
+    model = load_model("model_bisindo_70.h5")
     print("[INFO] Model berhasil dimuat.")
 except Exception as e:
     print("[ERROR] Gagal memuat model:", e)
     model = None
 
-class_labels = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+class_labels = [chr(i) for i in range(65, 91)]  # ['A', ..., 'Z']
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -47,6 +47,7 @@ def predict():
     file = request.files['file']
     if file and allowed_file(file.filename):
         try:
+            # Simpan file
             img_check = Image.open(file)
             img_check.verify()
             ext = file.filename.rsplit('.', 1)[1].lower()
@@ -55,10 +56,20 @@ def predict():
             file.seek(0)
             file.save(filepath)
 
-            img = image.load_img(filepath, target_size=(128, 128))
-            img_array = image.img_to_array(img) / 255.0
+            # Proses gambar
+            img = image.load_img(filepath, target_size=(224, 224))
+            img = img.convert("RGB")
+            img = ImageOps.autocontrast(img)
+            img = ImageOps.equalize(img)
+            img = img.filter(ImageFilter.GaussianBlur(radius=1))
+            img = img.filter(ImageFilter.SHARPEN)
+            img = img.filter(ImageFilter.EDGE_ENHANCE_MORE)
+
+            img_array = image.img_to_array(img)
+            img_array = img_array / 255.0 
             img_array = np.expand_dims(img_array, axis=0)
 
+            # Prediksi
             pred = model.predict(img_array)
             pred_index = int(np.argmax(pred))
             prediction = class_labels[pred_index]

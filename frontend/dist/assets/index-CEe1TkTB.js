@@ -545,7 +545,7 @@ PERFORMANCE OF THIS SOFTWARE.
         </div>
       </div>
     </section>
-  `}function Kr(){return setTimeout(()=>{const r=document.getElementById("cameraStream"),n=document.getElementById("cameraStatus"),t=document.getElementById("uploadedImage"),o=document.getElementById("detectedLetter");navigator.mediaDevices.getUserMedia({video:!0}).then(e=>{r.srcObject=e,r.play(),n.textContent="Kamera Aktif",n.classList.remove("bg-red-100","text-red-700"),n.classList.add("bg-green-100","text-green-700")}).catch(e=>{n.textContent="Kamera Tidak Aktif",n.classList.remove("bg-green-100","text-green-700"),n.classList.add("bg-red-100","text-red-700"),console.error("Tidak bisa mengakses kamera:",e)}),document.getElementById("btnSnapshot").onclick=()=>{const e=document.createElement("canvas"),a=e.getContext("2d");e.width=r.videoWidth,e.height=r.videoHeight,a.drawImage(r,0,0,e.width,e.height);const s=e.toDataURL("image/png");t.src=s,t.style.display="block"},document.getElementById("btnRemove").onclick=()=>{t.src="",t.style.display="none",o.innerText=""},document.getElementById("btnPredict").onclick=async()=>{const e=document.createElement("canvas"),a=e.getContext("2d");e.width=r.videoWidth,e.height=r.videoHeight,a.drawImage(r,0,0,e.width,e.height),e.toBlob(async s=>{const i=new FormData;i.append("file",s,"snapshot.png");try{const d=await fetch("http://127.0.0.1:5000/predict",{method:"POST",body:i});if(!d.ok){const c=await d.json();alert("Terjadi kesalahan: "+c.message);return}const l=await d.json();o.innerText=l.prediction}catch(d){alert("Gagal melakukan prediksi: "+d.message)}},"image/png")}},0),`
+  `}function Kr(){return setTimeout(()=>{const r=document.getElementById("cameraStream"),n=document.getElementById("cameraStatus"),t=document.getElementById("uploadedImage"),o=document.getElementById("detectedLetter");navigator.mediaDevices.getUserMedia({video:!0}).then(e=>{r.srcObject=e,r.play(),n.textContent="Kamera Aktif",n.classList.remove("bg-red-100","text-red-700"),n.classList.add("bg-green-100","text-green-700")}).catch(e=>{n.textContent="Kamera Tidak Aktif",n.classList.remove("bg-green-100","text-green-700"),n.classList.add("bg-red-100","text-red-700"),console.error("Tidak bisa mengakses kamera:",e)}),document.getElementById("btnCaptureAndPredict").onclick=async()=>{const e=document.createElement("canvas"),a=e.getContext("2d");e.width=r.videoWidth,e.height=r.videoHeight,a.drawImage(r,0,0,e.width,e.height);const s=e.toDataURL("image/png");t.src=s,t.style.display="block",e.toBlob(async i=>{const d=new FormData;d.append("file",i,"snapshot.png");try{const l=await fetch("http://127.0.0.1:5000/predict",{method:"POST",body:d});if(!l.ok){const u=await l.json();alert("Terjadi kesalahan: "+u.message);return}const c=await l.json();o.innerText=c.prediction}catch(l){alert("Gagal melakukan prediksi: "+l.message)}},"image/png")},document.getElementById("btnRemove").onclick=()=>{t.src="",t.style.display="none",o.innerText=""}},0),`
     <section class="py-24 px-4">
       <div class="w-full max-w-7xl mx-auto grid md:grid-cols-2 gap-8">
 
@@ -559,9 +559,10 @@ PERFORMANCE OF THIS SOFTWARE.
           </div>
 
           <div class="flex flex-wrap justify-center gap-4">
-            <button id="btnSnapshot" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">Ambil Foto</button>
+            <button id="btnCaptureAndPredict" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+              Ambil & Prediksi
+            </button>
             <button id="btnRemove" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-gray-600 transition">Hapus Foto</button>
-            <button id="btnPredict" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Prediksi</button>
           </div>
         </div>
 
@@ -576,7 +577,6 @@ PERFORMANCE OF THIS SOFTWARE.
           <h2 class="text-lg font-semibold text-gray-700">Huruf yang Anda buat adalah:</h2>
           <p id="detectedLetter" class="text-[clamp(3rem,8vw,6rem)] font-extrabold text-blue-600 animate-pulse">–</p>
         </div>
-
 
       </div>
     </section>
