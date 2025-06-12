@@ -227,6 +227,8 @@ Follow these steps to set up and run the backend application:
 
 ⚠️ Make sure you are using Python 3.11. Newer versions (such as 3.13) are not compatible and may cause runtime errors.
 
+#### For more details, check out the Machine Learning documentation we’ve prepared: [Readme.md Machine Learning](https://github.com/RhismaSyahrulPutra/pro-diss-track/blob/main/machine-learning/README.md)
+
 1.  **Install The Required Dependencies:**
 
     ```bash
