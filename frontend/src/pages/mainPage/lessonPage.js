@@ -45,8 +45,6 @@ export default async function Lesson(queryString = '') {
       : `${import.meta.env.BASE_URL}assets/images/lesson-placeholder.jpg`;
     const lessonTitle = currentLesson.lesson_title || 'Judul Pelajaran';
     const lessonDesc = currentLesson.lesson_desc || '';
-    const lessonContent =
-      currentLesson.lesson_content || '<p>Konten tidak tersedia.</p>';
 
     const baseLink = `#/lesson?id=${courseId}`;
     const prevLink = `${baseLink}&lesson=${index - 1}`;
@@ -54,33 +52,29 @@ export default async function Lesson(queryString = '') {
     const backToCourseLink = `#course`;
 
     return `
-      <section class="py-24 min-h-screen px-4 overflow-hidden bg-gray-50" data-aos="fade-up">
-        <div class="flex gap-8 items-start">
-          <!-- Kiri: Card Summary -->
-          <div class="w-1/3" data-aos="fade-up" data-aos-delay="100">
-            <div class="bg-white p-6 rounded-lg shadow max-w-md">
-              <img src="${lessonPhoto}" alt="${lessonTitle}" class="w-full h-100 object-cover rounded-md mb-4" />
-              <h2 class="text-2xl font-bold mb-2 text-blue-600">${lessonTitle}</h2>
-              <p class="text-gray-600">${lessonDesc}</p>
-            </div>
+      <section class="py-24 min-h-screen px-4 bg-gray-50" data-aos="fade-up">
+        <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow" data-aos="fade-up" data-aos-delay="100">
+          
+          <!-- Bagian gambar, judul, dan deskripsi di tengah -->
+          <div class="text-center flex flex-col items-center">
+            <img src="${lessonPhoto}" alt="${lessonTitle}" class="w-72 h-72 object-cover rounded-md mb-4" />
+            <h2 class="text-3xl font-bold mb-2 text-blue-600">${lessonTitle}</h2>
+            <p class="text-gray-600 mb-6 max-w-xl">${lessonDesc}</p>
           </div>
 
-          <!-- Kanan: Konten -->
-          <div class="flex-1 bg-white p-6 rounded-lg shadow prose max-w-none overflow-auto max-h-[600px]" data-aos="fade-left" data-aos-delay="200">
-            ${lessonContent}
-            <div class="mt-6 flex justify-between">
-              ${
-                index > 0
-                  ? `<a href="${prevLink}" class="px-4 py-2 bg-gray-300 text-gray-700 rounded">⬅ Sebelumnya</a>`
-                  : `<span class="px-4 py-2 bg-gray-100 text-gray-400 rounded cursor-not-allowed">Sebelumnya</span>`
-              }
+          <!-- Navigasi -->
+          <div class="mt-6 flex justify-between">
+            ${
+              index > 0
+                ? `<a href="${prevLink}" class="px-4 py-2 bg-gray-300 text-gray-700 rounded">⬅ Sebelumnya</a>`
+                : `<span class="px-4 py-2 bg-gray-100 text-gray-400 rounded cursor-not-allowed">Sebelumnya</span>`
+            }
 
-              ${
-                index < lessons.length - 1
-                  ? `<a href="${nextLink}" class="px-4 py-2 bg-blue-600 text-white rounded">Selanjutnya</a>`
-                  : `<a href="${backToCourseLink}" class="px-4 py-2 bg-green-600 text-white rounded">Kembali ke Kursus</a>`
-              }
-            </div>
+            ${
+              index < lessons.length - 1
+                ? `<a href="${nextLink}" class="px-4 py-2 bg-blue-600 text-white rounded">Selanjutnya</a>`
+                : `<a href="${backToCourseLink}" class="px-4 py-2 bg-green-600 text-white rounded">Kembali ke Kursus</a>`
+            }
           </div>
         </div>
 
