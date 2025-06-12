@@ -1,7 +1,9 @@
+Flask
+Flask-Cors
 tensorflow
-keras
 numpy
 pandas
+Pillow
 imutils
 scikit-learn
 matplotlib
