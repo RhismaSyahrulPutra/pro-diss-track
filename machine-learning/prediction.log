@@ -316,3 +316,1774 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 800-124-267
 INFO:root:[2025-06-11 18:32:12.612418] Predicted: F (0.2024)
 INFO:werkzeug:127.0.0.1 - - [11/Jun/2025 18:32:12] "POST /predict HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:25:24.230752] Predicted: D (0.1159)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:25:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:25:28.976912] Predicted: D (0.0938)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:25:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:25:35.783639] Predicted: P (0.1475)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:25:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:25:42.390933] Predicted: D (0.1802)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:25:42] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:26:33.651251] Predicted: D (0.0961)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:26:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:26:42.641322] Predicted: B (0.1753)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:26:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:26:44.078513] Predicted: B (0.1823)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:26:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:27:06.206132] Predicted: J (0.0714)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:27:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:27:08.034343] Predicted: J (0.0691)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:27:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:27:17.280014] Predicted: M (0.1974)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:27:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:27:21.614230] Predicted: O (0.2717)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:27:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:27:22.677725] Predicted: O (0.4069)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:27:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:27:29.215773] Predicted: O (0.3186)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:27:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:27:30.412596] Predicted: O (0.2820)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:27:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:27:31.111097] Predicted: O (0.3765)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:27:31] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:27:47.637366] Predicted: H (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:27:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:27:52.202813] Predicted: D (0.9607)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:27:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:27:56.285595] Predicted: H (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:27:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:28:02.677778] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:28:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:28:03.618793] Predicted: J (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:28:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:28:04.510360] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:28:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:28:05.456775] Predicted: O (0.9963)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:28:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:28:06.306960] Predicted: J (0.9277)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:28:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:28:07.057313] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:28:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:28:12.218472] Predicted: D (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:28:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:28:13.718960] Predicted: D (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:28:13] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:29:15.125259] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:29:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:29:16.651909] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:29:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:29:19.620942] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:29:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:29:20.797636] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:29:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:29:24.391623] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:29:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:29:29.229430] Predicted: K (0.9941)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:29:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:29:32.969433] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:29:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:29:36.309470] Predicted: H (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:29:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:29:37.287134] Predicted: H (0.9900)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:29:37] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:31:14.341446] Predicted: Z (0.2409)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:31:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:31:16.126656] Predicted: Z (0.2536)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:31:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:31:22.037664] Predicted: Z (0.2270)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:31:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:31:27.945864] Predicted: Z (0.2257)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:31:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:32:58.642391] Predicted: Z (0.3566)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:32:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:00.141118] Predicted: Z (0.3399)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:02.890589] Predicted: Z (0.1988)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:07.942257] Predicted: T (0.5488)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:09.515656] Predicted: T (0.3587)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:10.478973] Predicted: V (0.2569)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:12.032218] Predicted: V (0.2292)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:23.693669] Predicted: Z (0.1061)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:24.535581] Predicted: Z (0.1195)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:25.138463] Predicted: Z (0.1171)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:25.713670] Predicted: I (0.0871)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:26.177526] Predicted: I (0.1405)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:26.801074] Predicted: O (0.1338)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:27.343864] Predicted: I (0.1073)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:27.968157] Predicted: O (0.1903)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:28.574771] Predicted: O (0.1338)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:29.364030] Predicted: O (0.1721)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:29.759792] Predicted: O (0.2778)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:30.680590] Predicted: O (0.4413)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:31.147296] Predicted: C (0.1836)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:32.114266] Predicted: O (0.4090)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:35.027199] Predicted: J (0.1723)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:36.309108] Predicted: J (0.3251)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:36.810358] Predicted: J (0.2674)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:37.425422] Predicted: J (0.1935)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:37.894221] Predicted: Z (0.2993)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:38.325917] Predicted: Z (0.2561)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:38.872981] Predicted: J (0.1539)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:39.310045] Predicted: J (0.1881)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:39.802033] Predicted: Z (0.3218)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:40.464306] Predicted: Z (0.3843)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:40.918366] Predicted: Z (0.1750)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:41.356643] Predicted: C (0.1257)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:33:41.790062] Predicted: C (0.1589)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:33:41] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:34:38.386486] Predicted: Z (0.2933)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:34:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:04.275177] Predicted: O (0.2369)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:05.588888] Predicted: O (0.2457)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:09.015977] Predicted: S (0.0702)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:11.149884] Predicted: J (0.0744)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:12.287317] Predicted: T (0.1748)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:13.412200] Predicted: V (0.0686)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:20.138697] Predicted: Z (0.4510)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:33.950321] Predicted: T (0.2838)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:35.488382] Predicted: Z (0.6993)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:37.190236] Predicted: T (0.2830)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:37.821286] Predicted: T (0.2427)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:39.058645] Predicted: Z (0.4326)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:40.264351] Predicted: Z (0.1947)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:41.396121] Predicted: Z (0.2198)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:42.055237] Predicted: T (0.3409)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:42.868502] Predicted: Z (0.1429)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:45.032346] Predicted: Z (0.4561)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:46.292740] Predicted: Z (0.2710)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:46.591043] Predicted: Z (0.3649)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:35:58.105838] Predicted: Z (0.3996)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:35:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:36:02.455547] Predicted: Z (0.2655)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:36:02] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:37:38.561162] Predicted: Z (0.1488)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:37:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:37:45.582805] Predicted: I (0.0645)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:37:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:37:47.725551] Predicted: T (0.2587)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:37:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:37:49.315455] Predicted: T (0.3445)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:37:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:37:50.381644] Predicted: T (0.3074)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:37:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:37:52.360406] Predicted: Z (0.3363)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:37:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:37:53.329418] Predicted: T (0.2697)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:37:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:37:54.364890] Predicted: T (0.4105)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:37:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:37:58.820089] Predicted: O (0.1667)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:37:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:38:02.201837] Predicted: P (0.1168)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:38:03.279503] Predicted: P (0.0665)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:38:03.918672] Predicted: S (0.0770)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:38:04.873908] Predicted: T (0.1586)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:38:06.644664] Predicted: Z (0.2656)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:38:07.413253] Predicted: Z (0.2868)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:38:08.548122] Predicted: Z (0.2793)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:38:09.382707] Predicted: Z (0.2653)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:09] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:root:[2025-06-12 16:38:44.285905] Predicted: I (0.2120)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:38:51.301403] Predicted: Z (0.2750)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:38:55.195479] Predicted: Z (0.1790)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:38:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:00.588758] Predicted: Z (0.2617)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:01.418304] Predicted: Z (0.3078)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:02.305573] Predicted: Z (0.2702)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:02] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:39:19.346291] Predicted: Z (0.1924)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:19.610237] Predicted: F (0.2591)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:20.621703] Predicted: F (0.2064)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:21.760138] Predicted: C (0.3237)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:23.274517] Predicted: B (0.1767)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:24.326539] Predicted: C (0.2160)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:25.359110] Predicted: B (0.2951)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:26.240322] Predicted: B (0.3460)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:27.198790] Predicted: O (0.3191)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:33.471243] Predicted: C (0.2618)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:57.780944] Predicted: Z (0.4828)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:58.720428] Predicted: O (0.5678)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:39:59.757108] Predicted: Z (0.3508)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:39:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:00.503078] Predicted: Z (0.3067)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:01.232552] Predicted: Z (0.2872)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:01.453370] Predicted: Z (0.3165)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:01.702463] Predicted: Z (0.4445)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:01.939217] Predicted: O (0.2266)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:02.107238] Predicted: Z (0.2591)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:02.257684] Predicted: S (0.3051)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:02.404336] Predicted: Z (0.3675)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:03.258530] Predicted: O (0.6257)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:04.210557] Predicted: Z (0.4068)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:04.937921] Predicted: Z (0.3824)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:13.427086] Predicted: Z (0.3903)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:16.626122] Predicted: Z (0.4701)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:16] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:root:[2025-06-12 16:40:42.272554] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:47.269447] Predicted: T (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:49.164794] Predicted: T (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:51.335336] Predicted: T (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:53.070662] Predicted: T (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:54.027238] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:55.558438] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:57.264406] Predicted: T (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:40:59.639956] Predicted: M (0.9908)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:40:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:41:04.350278] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:41:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:41:14.649480] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:41:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:41:16.353626] Predicted: T (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:41:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:41:17.216031] Predicted: C (0.9519)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:41:17] "POST /predict HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:43:23.727428] Predicted: C (0.9798)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:43:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:43:27.346883] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:43:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:43:29.040145] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:43:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:43:30.619623] Predicted: V (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:43:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:43:59.910289] Predicted: J (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:43:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:02.621365] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:03.885305] Predicted: S (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:05.048168] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:05.991436] Predicted: R (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:09.119504] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:09.922779] Predicted: J (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:12.716827] Predicted: C (0.9986)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:14.575463] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:15.964974] Predicted: U (0.9994)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:17.026437] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:17.674743] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:19.340781] Predicted: I (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:22.542682] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:23.841904] Predicted: C (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:24.526005] Predicted: T (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:25.578550] Predicted: T (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:28.133996] Predicted: Z (0.9995)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:29.022736] Predicted: R (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:30.222225] Predicted: I (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:44:32.201782] Predicted: I (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:44:32] "POST /predict HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:47:42.490994] Predicted: O (0.1899)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:47:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:47:44.673856] Predicted: O (0.1691)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:47:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:47:45.727304] Predicted: O (0.1810)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:47:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:47:46.737571] Predicted: O (0.1685)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:47:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:47:47.806928] Predicted: Z (0.1779)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:47:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:47:51.243268] Predicted: Z (0.1296)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:47:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:47:53.176149] Predicted: Z (0.1673)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:47:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:47:53.819665] Predicted: Z (0.0840)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:47:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:47:54.412220] Predicted: Z (0.1037)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:47:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:47:54.940832] Predicted: Z (0.0835)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:47:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:47:55.935854] Predicted: Z (0.0740)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:47:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:47:56.337622] Predicted: Z (0.0763)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:47:56] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:48:06.371429] Predicted: Z (0.1943)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:48:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:48:08.602307] Predicted: Z (0.2661)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:48:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:48:09.688678] Predicted: Z (0.2480)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:48:09] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:48:35.065035] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:48:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:48:39.157112] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:48:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:48:41.344497] Predicted: S (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:48:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:48:42.551889] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:48:42] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:50:40.004918] Predicted: C (0.1751)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:50:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:50:49.238518] Predicted: T (0.2350)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:50:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:50:50.797711] Predicted: C (0.2012)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:50:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:50:52.091416] Predicted: C (0.1897)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:50:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:50:59.390881] Predicted: T (0.1335)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:50:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:51:00.867251] Predicted: T (0.1224)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:51:02.871668] Predicted: P (0.1701)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:51:03.829421] Predicted: T (0.1428)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:51:04.789393] Predicted: P (0.2157)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:04] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:root:[2025-06-12 16:51:33.646980] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:51:36.117684] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:51:37.890206] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:51:39.148177] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:39] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:root:[2025-06-12 16:51:57.057071] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:51:58.970737] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:51:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:52:00.574054] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:52:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:52:02.839531] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:52:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:52:04.691300] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:52:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:52:06.066664] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:52:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:52:07.511306] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:52:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:52:09.249681] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:52:09] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:53:56.679747] Predicted: I (0.9968)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:53:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:53:58.255892] Predicted: C (0.9999)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:53:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:53:59.847999] Predicted: C (0.9983)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:53:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:01.781497] Predicted: I (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:03.248114] Predicted: I (0.9908)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:04.622684] Predicted: C (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:06.184149] Predicted: E (0.9990)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:07.641305] Predicted: V (0.6106)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:14.537284] Predicted: P (0.9956)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:16.038307] Predicted: P (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:16.814284] Predicted: P (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:21.450902] Predicted: M (0.2441)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:22.361842] Predicted: J (0.7644)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:23.329550] Predicted: M (0.4333)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:24.018773] Predicted: M (0.4389)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:24.969497] Predicted: M (0.1329)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:25.670855] Predicted: I (0.0512)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:25] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:54:42.770384] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:43.964679] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:44.994407] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:45.906519] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:47.509987] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:48.905847] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:54:51.042054] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:54:51] "POST /predict HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:55:36.345656] Predicted: O (0.1121)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:39.881642] Predicted: Z (0.1308)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:41.489452] Predicted: Q (0.1797)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:43.913123] Predicted: O (0.0821)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:45.021316] Predicted: O (0.0747)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:47.033457] Predicted: J (0.0735)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:49.721429] Predicted: I (0.0899)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:50.030861] Predicted: I (0.0828)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:50.821814] Predicted: I (0.1108)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:51.833331] Predicted: I (0.0631)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:52.048770] Predicted: I (0.0505)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:52.638131] Predicted: I (0.0555)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:53.294803] Predicted: I (0.0545)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:55:53.862187] Predicted: I (0.0554)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:55:53] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:56:46.272745] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:56:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:56:54.519915] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:56:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:56:57.592214] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:56:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:56:58.792990] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:56:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:00.015489] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:01.040366] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:01.951709] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:02.719790] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:04.271402] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:09.340570] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:11.256744] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:13.281844] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:14.787586] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:15.938605] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:17.189596] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:17] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:57:38.203834] Predicted: I (0.5739)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:39.707898] Predicted: I (0.5333)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:43.422516] Predicted: I (0.5998)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:43] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:51.049447] Predicted: I (0.5463)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:52.992724] Predicted: I (0.5189)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:54.609492] Predicted: I (0.5408)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:57:56.370106] Predicted: I (0.5416)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:57:56] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:58:08.343454] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:13.989455] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:15.329226] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:16.247645] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:18.434657] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:19.419904] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:21.095606] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:22.054594] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:23.036955] Predicted: R (0.9947)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:23] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:58:49.648776] Predicted: R (0.1932)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:53.487549] Predicted: R (0.1784)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:54.440733] Predicted: O (0.1969)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:55.724580] Predicted: R (0.2110)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:57.521188] Predicted: R (0.2288)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:58:58.478816] Predicted: R (0.2891)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:58:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:59:01.940710] Predicted: R (0.2050)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:59:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:59:03.909611] Predicted: O (0.1778)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:59:03] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:59:17.481403] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:59:17] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 16:59:44.235444] Predicted: Z (0.1609)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:59:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:59:49.831896] Predicted: Z (0.1929)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:59:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:59:54.751158] Predicted: Q (0.1806)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:59:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:59:56.913477] Predicted: Z (0.1095)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:59:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 16:59:59.588082] Predicted: Y (0.0597)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 16:59:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:00.558587] Predicted: M (0.0621)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:01.972400] Predicted: Z (0.0659)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:13.563459] Predicted: Q (0.2149)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:14.990884] Predicted: Q (0.2246)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:16.141072] Predicted: Q (0.2511)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:16.767640] Predicted: Q (0.2444)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:17.133436] Predicted: Q (0.2523)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:17.578271] Predicted: Q (0.2031)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:18.110601] Predicted: Q (0.2161)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:18.579452] Predicted: Q (0.2118)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:19.485071] Predicted: Q (0.2467)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:26.760746] Predicted: Z (0.2468)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:28.726088] Predicted: Z (0.1931)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:29.807856] Predicted: Z (0.1970)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:29] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:00:56.275932] Predicted: Z (0.9617)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:56.456518] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:00:57.552851] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:00:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:01:02.939511] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:01:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:01:04.151232] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:01:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:01:06.900411] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:01:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:01:08.302011] Predicted: T (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:01:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:01:09.346176] Predicted: T (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:01:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:01:10.761018] Predicted: T (0.9753)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:01:10] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:01:49.708666] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:01:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:01:52.786325] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:01:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:01:54.101303] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:01:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:01:55.401211] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:01:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:01:56.976211] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:01:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:01:59.720825] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:01:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:02:01.070386] Predicted: S (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:02:02.258836] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:02:03.191756] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:02:05.547637] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:02:07.273461] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:02:08.345539] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:02:08.971024] Predicted: S (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:02:09.728218] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:02:10.489127] Predicted: S (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:02:11.271888] Predicted: S (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:02:12.131071] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:12] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:02:50.196075] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:02:50] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:03:15.141972] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:03:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:03:17.658724] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:03:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:03:19.074264] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:03:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:03:19.917918] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:03:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:03:21.824647] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:03:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:03:22.725684] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:03:22] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:03:45.090645] Predicted: Z (0.1910)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:03:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:03:51.463712] Predicted: Z (0.2521)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:03:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:03:52.909761] Predicted: Z (0.2319)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:03:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:03:56.424099] Predicted: Z (0.3437)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:03:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:03:57.902509] Predicted: Z (0.3152)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:03:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:03:59.859040] Predicted: Z (0.4474)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:03:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:01.738729] Predicted: Z (0.5514)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:02.675661] Predicted: Z (0.2820)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:02] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:04:15.003284] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:21.762611] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:23.108068] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:26.167875] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:27.580105] Predicted: V (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:34.232091] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:35.319462] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:36.256362] Predicted: B (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:37.360564] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:38.230969] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:39.651845] Predicted: R (0.5832)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:40.440690] Predicted: M (0.9993)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:41.248477] Predicted: V (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:42.076285] Predicted: R (0.9999)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:04:43.065009] Predicted: V (0.9979)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:04:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:06.730544] Predicted: W (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:24.699976] Predicted: H (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:27.611708] Predicted: H (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:30.576064] Predicted: K (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:32.766315] Predicted: H (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:46.225785] Predicted: C (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:47.172937] Predicted: C (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:47.988658] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:48.893552] Predicted: C (0.6956)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:49.656943] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:50.332135] Predicted: R (0.9829)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:51.261905] Predicted: S (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:52.033895] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:52.800928] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:53.596334] Predicted: R (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:54.389063] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:55.174435] Predicted: R (0.9878)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:55.844601] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:56.627810] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:05:57.514081] Predicted: Z (0.9901)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:05:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:06:39.548992] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:06:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:06:41.276967] Predicted: Z (0.9922)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:06:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:06:42.658374] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:06:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:06:44.046708] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:06:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:06:45.256614] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:06:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:06:46.106175] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:06:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:06:49.558594] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:06:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:06:52.214388] Predicted: F (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:06:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:06:53.602624] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:06:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:06:55.804498] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:06:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:06:56.522954] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:06:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:07:12.093961] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:07:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:07:14.955520] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:07:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:07:15.916932] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:07:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:07:18.314831] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:07:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:07:19.605596] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:07:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:07:20.226984] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:07:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:07:20.762509] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:07:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:07:21.245432] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:07:21] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:09:25.623138] Predicted: Z (0.0955)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:09:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:09:27.640054] Predicted: Z (0.1015)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:09:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:09:29.614604] Predicted: Z (0.4613)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:09:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:09:49.091181] Predicted: O (0.1371)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:09:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:09:50.524910] Predicted: O (0.1422)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:09:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:09:54.084187] Predicted: O (0.1057)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:09:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:09:55.250974] Predicted: O (0.1113)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:09:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:10:00.934427] Predicted: R (0.1055)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:10:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:10:02.113966] Predicted: O (0.1027)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:10:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:10:02.871993] Predicted: O (0.0999)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:10:02] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:11:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:11:43.630636] Predicted: Z (0.1380)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:11:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:11:49.491861] Predicted: C (0.1460)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:11:49] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:13:34.703550] Predicted: Z (0.0570)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:13:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:13:39.977839] Predicted: O (0.0613)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:13:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:13:44.030405] Predicted: Y (0.0587)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:13:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:13:45.529952] Predicted: O (0.0625)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:13:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:13:46.465808] Predicted: O (0.0580)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:13:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:13:47.353760] Predicted: Z (0.0638)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:13:47] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:14:07.707723] Predicted: Z (0.1353)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:14:10.176442] Predicted: Z (0.1436)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:10] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:14:24.732308] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:14:24.734309] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:14:24.739835] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:14:26.474808] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:14:27.815712] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:14:29.135022] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:14:30.325070] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:14:30.886614] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:14:31.267440] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:14:31.546275] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:14:31.721018] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:14:38.536748] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:38] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:root:[2025-06-12 17:14:58.506322] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:14:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:03.472388] Predicted: H (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:05.929084] Predicted: H (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:07.056793] Predicted: S (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:08.460557] Predicted: S (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:09.449157] Predicted: V (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:10.597945] Predicted: V (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:13.528163] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:14.936280] Predicted: V (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:15.709328] Predicted: V (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:16.590937] Predicted: V (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:17.059773] Predicted: V (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:17.502259] Predicted: V (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:15:17.911621] Predicted: V (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:15:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:22.583082] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:25.365891] Predicted: U (0.9955)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:27.185294] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:28.473164] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:29.710001] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:30.511081] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:31.704253] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:33.307153] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:38.269167] Predicted: R (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:39.451108] Predicted: R (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:40.519311] Predicted: R (0.9900)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:44.074875] Predicted: P (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:45.299220] Predicted: T (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:46.201203] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:47.060969] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:48.011989] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:17:48.912260] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:17:48] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:18:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:18:50.857023] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:18:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:18:50.858539] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:18:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:18:53.771464] Predicted: J (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:18:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:18:56.020022] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:18:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:18:57.361541] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:18:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:18:58.492858] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:18:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:18:59.395501] Predicted: J (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:18:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:01.931012] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:02.853535] Predicted: Q (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:03.760848] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:04.398059] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:05.083951] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:05] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:19:19.089600] Predicted: O (0.0850)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:19.255585] Predicted: O (0.0768)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:20.341325] Predicted: O (0.0789)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:25.087940] Predicted: O (0.0814)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:26.193410] Predicted: O (0.0761)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:28.795485] Predicted: I (0.0523)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:29.883278] Predicted: O (0.0669)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:31.080312] Predicted: O (0.0552)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:33.358476] Predicted: O (0.0736)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:34.242639] Predicted: O (0.0735)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:34.993238] Predicted: O (0.0701)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:35.456151] Predicted: I (0.0688)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:35.754429] Predicted: O (0.0697)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:36.036763] Predicted: O (0.0736)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:36.506022] Predicted: O (0.0785)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:36.789722] Predicted: O (0.0643)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:36.957725] Predicted: O (0.0586)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:37.352422] Predicted: Z (0.0602)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:37.888387] Predicted: Z (0.0525)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:38.225676] Predicted: Z (0.0513)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:38.723839] Predicted: Z (0.0562)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:39.067647] Predicted: O (0.0623)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:39.536735] Predicted: O (0.0631)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:40.207277] Predicted: I (0.0519)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:40.770655] Predicted: Z (0.0554)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:41.350267] Predicted: Y (0.0523)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:42.221872] Predicted: Z (0.0514)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:42.823500] Predicted: I (0.0505)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:43.569214] Predicted: Z (0.0509)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:19:44.125019] Predicted: Z (0.0544)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:19:44] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:20:59.694639] Predicted: O (0.9841)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:20:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:21:00.654959] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:21:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:21:01.775878] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:21:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:21:04.655074] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:21:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:21:06.341244] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:21:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:21:07.880102] Predicted: Z (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:21:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:21:08.905848] Predicted: R (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:21:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:21:09.759987] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:21:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:21:10.865451] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:21:10] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:21:58.561694] Predicted: Z (0.0835)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:21:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:02.791618] Predicted: Z (0.0622)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:06.146110] Predicted: O (0.0964)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:11.896464] Predicted: I (0.0612)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:13.111459] Predicted: I (0.0639)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:14.636182] Predicted: O (0.0684)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:16.778793] Predicted: O (0.0709)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:18.633006] Predicted: Z (0.0837)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:19.822848] Predicted: I (0.0852)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:20.899677] Predicted: Z (0.0759)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:22.527163] Predicted: O (0.0764)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:24.718359] Predicted: Z (0.0748)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:25.067129] Predicted: I (0.0738)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:26.256974] Predicted: Z (0.1685)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:27.721229] Predicted: O (0.0886)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:28.921874] Predicted: O (0.0899)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:31.188242] Predicted: O (0.0641)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:32.271332] Predicted: Z (0.0721)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:33.290013] Predicted: O (0.0862)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:34.660391] Predicted: Z (0.0726)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:22:35.888797] Predicted: Z (0.1073)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:22:35] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:23:08.858150] Predicted: S (0.1258)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:12.377936] Predicted: V (0.2098)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:14.980890] Predicted: V (0.1154)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:16.588052] Predicted: M (0.2708)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:18.549622] Predicted: M (0.2181)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:19.902696] Predicted: C (0.1171)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:21.004848] Predicted: Z (0.1498)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:22.151699] Predicted: Z (0.1674)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:23.700071] Predicted: C (0.1732)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:24.678560] Predicted: M (0.1662)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:26.220864] Predicted: Z (0.3386)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:27.419259] Predicted: Z (0.2557)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:28.654961] Predicted: Z (0.2238)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:28] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:23:40.493998] Predicted: O (0.0661)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:40.495989] Predicted: O (0.0661)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:40.503787] Predicted: O (0.0661)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:42.571439] Predicted: I (0.0607)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:44.704921] Predicted: O (0.0600)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:47.786976] Predicted: Z (0.0553)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:49.769534] Predicted: O (0.0697)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:53.924710] Predicted: Z (0.0812)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:23:54.963644] Predicted: Z (0.0855)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:23:54] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:24:05.626276] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:05.627788] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:05.634444] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:07.080913] Predicted: Q (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:07.954560] Predicted: Q (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:09.583775] Predicted: M (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:11.270341] Predicted: U (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:12.311083] Predicted: N (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:24.074163] Predicted: D (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:25.533006] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:27.243503] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:30.163085] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:32.095376] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:33.097985] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:34.528621] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:35.482515] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:36.143990] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:36.896429] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:37.091265] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:37.208239] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:37.395684] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:37.580753] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:37.742772] Predicted: O (1.0000)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:37] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:24:53.064730] Predicted: Z (0.2386)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:53.065730] Predicted: Z (0.2386)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:56.436932] Predicted: O (0.3077)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:57.441344] Predicted: Z (0.1329)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:58.481830] Predicted: O (0.5532)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:24:59.692279] Predicted: Z (0.2123)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:24:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:25:00.803363] Predicted: Z (0.3791)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:25:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:25:01.799002] Predicted: Z (0.3666)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:25:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:25:02.605795] Predicted: T (0.2050)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:25:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:25:05.082333] Predicted: O (0.2034)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:25:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:25:05.901790] Predicted: I (0.0635)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:25:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:25:06.821111] Predicted: V (0.0590)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:25:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:25:08.182623] Predicted: V (0.0680)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:25:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:25:08.947007] Predicted: O (0.0679)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:25:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:25:09.662924] Predicted: S (0.0578)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:25:09] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:26:44.856044] Predicted: O (0.3141)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:26:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:26:48.521131] Predicted: O (0.5280)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:26:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:26:50.079011] Predicted: J (0.1265)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:26:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:26:51.677825] Predicted: O (0.3535)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:26:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:26:58.486496] Predicted: O (0.1695)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:26:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:26:59.513813] Predicted: Z (0.1856)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:26:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:08.245028] Predicted: O (0.4701)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:09.087448] Predicted: Z (0.1636)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:10.086575] Predicted: O (0.2141)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:10.846609] Predicted: Z (0.3431)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:11.386570] Predicted: O (0.2049)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:11.981946] Predicted: Z (0.2615)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:12.474956] Predicted: O (0.3524)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:13.003239] Predicted: O (0.4812)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:13.665138] Predicted: O (0.3329)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:14.445479] Predicted: O (0.4668)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:14.836668] Predicted: Z (0.2192)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:15.043625] Predicted: O (0.2033)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:15] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:root:[2025-06-12 17:27:30.040540] Predicted: Z (0.1555)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:34.941911] Predicted: O (0.5797)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:40.018282] Predicted: Z (0.2283)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:43.968328] Predicted: Z (0.1360)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:46.309568] Predicted: O (0.1652)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:48.125058] Predicted: Z (0.0742)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:49.651188] Predicted: I (0.0788)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:51.345018] Predicted: I (0.0988)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:53.434331] Predicted: O (0.1391)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:54.870765] Predicted: I (0.0742)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:56.842478] Predicted: Z (0.0739)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:27:58.172297] Predicted: J (0.0976)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:27:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:28:00.000465] Predicted: Z (0.0878)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:28:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:28:00.960631] Predicted: Z (0.0800)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:28:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:28:02.671703] Predicted: Z (0.1052)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:28:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:28:03.656765] Predicted: T (0.0651)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:28:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:28:04.988231] Predicted: Z (0.1109)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:28:04] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Capstone-Project\\pro-diss-track\\machine-learning\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-960-842
+INFO:root:[2025-06-12 17:29:59.582247] Predicted: Z (0.2370)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:29:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:02.452939] Predicted: Z (0.2137)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:03.237953] Predicted: Z (0.1563)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:03.877758] Predicted: O (0.1752)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:04.443568] Predicted: T (0.2121)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:06.624071] Predicted: Z (0.4494)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:07.407832] Predicted: O (0.5709)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:08.403556] Predicted: O (0.3513)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:09.152386] Predicted: O (0.4216)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:09.873051] Predicted: O (0.5019)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:13.790537] Predicted: O (0.2611)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:15.554066] Predicted: O (0.4027)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:16.627336] Predicted: Z (0.1674)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:17.682183] Predicted: O (0.1732)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:18.765297] Predicted: O (0.4632)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:19.843968] Predicted: O (0.2358)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:21.281996] Predicted: Z (0.1715)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:22.240138] Predicted: O (0.3191)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:23.434003] Predicted: O (0.4089)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:24.605239] Predicted: O (0.3255)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:25.416920] Predicted: O (0.3998)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:26.656345] Predicted: O (0.1370)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:27.440458] Predicted: Z (0.1121)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:38.400921] Predicted: O (0.1725)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:30:39.634266] Predicted: C (0.0913)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:30:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:31:08.776288] Predicted: C (0.0550)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:31:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:31:14.098065] Predicted: I (0.0782)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:31:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:31:16.070545] Predicted: I (0.1058)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:31:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:31:17.315116] Predicted: I (0.1125)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:31:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:31:18.523779] Predicted: I (0.0981)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:31:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:31:19.617471] Predicted: I (0.0817)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:31:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:31:22.413421] Predicted: Z (0.1151)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:31:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:31:23.955182] Predicted: Z (0.1559)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:31:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:31:24.845230] Predicted: C (0.1278)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:31:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:31:55.765372] Predicted: S (0.0810)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:31:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:31:57.117448] Predicted: C (0.0972)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:31:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:31:58.219640] Predicted: C (0.1135)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:31:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:32:13.798437] Predicted: S (0.1361)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:32:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:32:15.392965] Predicted: Z (0.1375)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:32:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:32:16.463309] Predicted: Z (0.1328)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:32:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:[2025-06-12 17:32:19.336334] Predicted: S (0.0886)
+INFO:werkzeug:127.0.0.1 - - [12/Jun/2025 17:32:19] "POST /predict HTTP/1.1" 200 -
