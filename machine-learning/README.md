@@ -17,19 +17,19 @@ Proyek ini sangat relevan dan penting dalam rangka meningkatkan aksesibilitas ba
 - Thiracitta, N., & Gunawan, H. (2021). SIBI sign language recognition using convolutional neural network combined with transfer learning and non-trainable parameters. Procedia Computer Science, 179, 72-80.
 
 ## 2. Data Preparation 
-## Dataset
+### Dataset
 Dataset yang digunakan dalam proyek ini berasal dari beberapa dataset di Kaggle terkait dengan Bahasa Isyarat Indonesia (BISINDO):
 | No  |  Nama Dataset | Sumber  | Total foto (huruf A - Z)  |   
 |---|---|---|---|
 | 1  | Indonesian Sign Language BISINDO (Agung)  | https://www.kaggle.com/datasets/agungmrf/indonesian-sign-language-bisindo  | 11598   |   
 | 2  | Indonesian Sign Language BISINDO (IdhamOzi)  | https://www.kaggle.com/datasets/idhamozi/indonesian-sign-language-bisindo  | 2079  |   
 | 3  | Abjad Bahasa Isyarat Indonesia BISINDO  |https://www.kaggle.com/datasets/meisyavira/abjad-bahasa-isyarat-indonesia-bisindo   | 650  |   
-## Split Dataset
+### Split Dataset
 setelah menyatukan dataset, dilakukan split data sebanyak 80% untuk train dan 20% untuk test dengan total:
 - Train = 9176 gambar
 - Test = 2294 gambar
 
-## Data Augmentasi
+### Data Augmentasi
 Data augmentasi adalah teknik yang digunakan untuk memperluas ukuran dataset dengan memodifikasi gambar asli secara acak, yang dapat meningkatkan performa model dan mengurangi overfitting. Pada proyek ini, data augmentasi dilakukan dengan menggunakan ImageDataGenerator dari Keras. Berikut merupakan teknik augmentasi yang digunakan:
 1. Rescale: Menormalisasi gambar dengan membagi nilai piksel dengan 255, sehingga piksel gambar berada dalam rentang [0,1].
 2. Rotasi gambar: Mengubah gambar dengan rotasi acak hingga 5 derajat untuk memberi variasi sudut pandang.
@@ -71,7 +71,7 @@ Classification report memberikan metrik yang lebih mendalam terkait kinerja mode
 - Berdasarkan classification report yang dihasilkan, kita dapat melihat bahwa model memiliki precision, recall, dan f1-score yang sangat tinggi, dengan sebagian besar metrik berada di atas 0.85 untuk setiap kelas, dan rata-rata accuracy keseluruhan mencapai 88%.
 - Secara keseluruhan, baik confusion matrix maupun classification report menunjukkan bahwa model telah berhasil mengenali dan mengklasifikasikan gerakan Bahasa Isyarat Indonesia (BISINDO) dengan baik, dengan tingkat akurasi yang cukup tinggi. 
 
-Berikut meruapkan tabelnya:
+Berikut merupakan hasil tabel:
 | Class | Precision | Recall | F1-Score | Support |
 |-------|-----------|--------|----------|---------|
 | A     | 0.91      | 0.93   | 0.92     | 88    |
