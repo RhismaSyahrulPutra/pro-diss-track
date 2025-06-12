@@ -1,0 +1,34 @@
+# Cache dan file bytecode Python
+__pycache__/
+*.py[cod]
+
+# Log file
+*.log
+
+# Virtual environment (jika ada di dalam folder ini)
+venv/
+.env/
+.venv/
+
+# Dataset (jika besar atau tidak perlu di-track)
+dataset/
+
+# File model / hasil training (opsional)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# File cache dan temp
+*.cache
+*.tmp
+
+# File sistem
+.DS_Store
+Thumbs.db
+
+# Folder build Python (jika ada distribusi)
+build/
+dist/
+*.egg-info/
