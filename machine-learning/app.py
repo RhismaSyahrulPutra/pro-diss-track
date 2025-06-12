@@ -5,7 +5,6 @@ from keras.preprocessing import image
 from PIL import Image, ImageOps, ImageFilter
 from datetime import datetime
 import numpy as np
-import logging
 import os
 
 app = Flask(__name__)
@@ -18,8 +17,6 @@ app.config['MAX_CONTENT_LENGTH'] = 2 * 1024 * 1024
 
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-logging.basicConfig(filename='prediction.log', level=logging.INFO)
-
 try:
     model = load_model("model_bisindo_50epoch.h5")
     print("[INFO] Model berhasil dimuat.")
@@ -27,7 +24,7 @@ except Exception as e:
     print("[ERROR] Gagal memuat model:", e)
     model = None
 
-class_labels = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+class_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -70,7 +67,7 @@ def predict():
             prediction = class_labels[pred_index]
             confidence = float(np.max(pred))
 
-            logging.info(f"[{datetime.now()}] Predicted: {prediction} ({confidence:.4f})")
+            print(f"[INFO] Predicted: {prediction} ({confidence:.4f})")
 
             return jsonify({
                 'prediction': prediction,

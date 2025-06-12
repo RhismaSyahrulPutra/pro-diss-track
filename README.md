@@ -1,24 +1,26 @@
 <h1 align="center">Pro Diss Track</h1>
 
 **Anggota Team: CC25-CF216**
-* (ML) MC012D5Y2381 - Robertino Gladden Narendra - Universitas Telkom
-* (ML) MC575D5X2254 - Dyna Akmila - Universitas Ma’soem
-* (ML) MC299D5Y1215 - Muhammad Rasyid Nurrohim - Universitas Pendidikan Indonesia
-* (FEBE) FC299D5Y1685 - Rhisma Syahrul Putra - Universitas Pendidikan Indonesia
-* (FEBE) FC822D5Y0016 - Mohamad Zaelani Wira Kusuma - Universitas  ASM Ariyanti
-* (FEBE) FC299D5Y0685 - Aditya Ramadhan - Universitas Pendidikan Indonesia
-<br/>
+
+- (ML) MC012D5Y2381 - Robertino Gladden Narendra - Universitas Telkom
+- (ML) MC575D5X2254 - Dyna Akmila - Universitas Ma’soem
+- (ML) MC299D5Y1215 - Muhammad Rasyid Nurrohim - Universitas Pendidikan Indonesia
+- (FEBE) FC299D5Y1685 - Rhisma Syahrul Putra - Universitas Pendidikan Indonesia
+- (FEBE) FC822D5Y0016 - Mohamad Zaelani Wira Kusuma - Universitas ASM Ariyanti
+- (FEBE) FC299D5Y0685 - Aditya Ramadhan - Universitas Pendidikan Indonesia
+  <br/>
 
 **Latar Belakang:**
+
 <p align='justify'>Di Indonesia, terdapat sekitar 2 juta penyandang disabilitas rungu wicara, menurut data Kementerian Sosial Republik Indonesia. Mereka merupakan bagian signifikan dari masyarakat yang membutuhkan komunikasi inklusif. Namun, media pembelajaran bahasa isyarat untuk orang normal yang ingin belajar berkomunikasi dengan mereka masih sangat terbatas. Kurangnya akses terhadap platform edukatif yang mudah dipahami dan interaktif menyebabkan kesenjangan komunikasi dan menjadi hambatan dalam mendorong inklusi sosial antara masyarakat umum dan penyandang disabilitas rungu wicara.</p>
 
 **Tujuan Proyek:**
 
-*   Mengembangkan platform pembelajaran bahasa isyarat berbasis web yang interaktif, mudah diakses, dan inklusif.
-*   Meningkatkan pemahaman visual bahasa isyarat dengan penerapan teknologi Machine Learning seperti CNN.
-*   Melakukan pengumpulan data bahasa isyarat dan pelatihan model machine learning yang akurat.
-*   Melakukan integrasi Frontend dan Backend dengan Machine Learning dengan Tensorflow.js.
-*   Mendukung komunikasi inklusif antara penyandang disabilitas rungu wicara dan masyarakat luas dengan teknologi ramah pengguna.
+- Mengembangkan platform pembelajaran bahasa isyarat berbasis web yang interaktif, mudah diakses, dan inklusif.
+- Meningkatkan pemahaman visual bahasa isyarat dengan penerapan teknologi Machine Learning seperti CNN.
+- Melakukan pengumpulan data bahasa isyarat dan pelatihan model machine learning yang akurat.
+- Melakukan integrasi Frontend dan Backend dengan Machine Learning dengan Tensorflow.js.
+- Mendukung komunikasi inklusif antara penyandang disabilitas rungu wicara dan masyarakat luas dengan teknologi ramah pengguna.
 
 <h2>HOW TO USE</h2>
 
@@ -28,7 +30,7 @@ To get a local copy of this project on your machine, follow these steps:
 
 1.  **Open your terminal or command prompt.**
 
-2.  **Navigate to the directory where you want to store the project.**  For example:
+2.  **Navigate to the directory where you want to store the project.** For example:
 
     ```bash
     cd Documents/Projects
@@ -40,13 +42,13 @@ To get a local copy of this project on your machine, follow these steps:
     git clone <repository_url>
     ```
 
-    Replace `<repository_url>` with the actual URL of the repository you want to clone. You can find this URL on the repository's page (usually a green "Code" button).  It will look something like this:
+    Replace `<repository_url>` with the actual URL of the repository you want to clone. You can find this URL on the repository's page (usually a green "Code" button). It will look something like this:
 
     ```
     git clone https://github.com/your-username/your-repository.git
     ```
 
-4.  **The repository will be downloaded to your local machine.**  A new directory with the same name as the repository will be created in the directory you specified.
+4.  **The repository will be downloaded to your local machine.** A new directory with the same name as the repository will be created in the directory you specified.
 
 5.  **Navigate into the newly created directory:**
 
@@ -79,8 +81,8 @@ Follow these steps to get the frontend application up and running:
     VITE_BACKEND_PORT=<your_backend_port>
     ```
 
-    *   `VITE_BACKEND_HOST`:  The hostname or IP address where your backend server is running (e.g., `localhost`, `192.168.1.100`, or a domain name).
-    *   `VITE_BACKEND_PORT`: The port number on which your backend server is listening (e.g., `3000`, `8080`).
+    - `VITE_BACKEND_HOST`: The hostname or IP address where your backend server is running (e.g., `localhost`, `192.168.1.100`, or a domain name).
+    - `VITE_BACKEND_PORT`: The port number on which your backend server is listening (e.g., `3000`, `8080`).
 
 3.  **Run the Development Server:**
 
@@ -101,8 +103,8 @@ Follow these steps to get the frontend application up and running:
     npm run lint
     ```
 
-    These commands will automatically format your code according to the project's style guidelines and identify any linting issues.  Make sure to address any linting errors before committing your changes.
-    
+    These commands will automatically format your code according to the project's style guidelines and identify any linting issues. Make sure to address any linting errors before committing your changes.
+
 ### Backend Setup Instructions
 
 Follow these steps to set up and run the backend application:
@@ -147,30 +149,35 @@ Follow these steps to set up and run the backend application:
 
     **Explanation of Variables:**
 
-    *   **Server Configuration:**
-        *   `HOST`: The hostname or IP address the server will listen on (e.g., `localhost`, `0.0.0.0`).
-        *   `PORT`: The port number the server will listen on (e.g., `3000`, `8080`).
-        *   `APP_HOST`: The host where the application is accessible (e.g., `http://localhost:3000`).
+    - **Server Configuration:**
 
-    *   **PostgreSQL Configuration:**
-        *   `PGUSER`: The PostgreSQL username.
-        *   `PGHOST`: The PostgreSQL host address.
-        *   `PGPASSWORD`: The PostgreSQL password.
-        *   `PGDATABASE`: The PostgreSQL database name.
-        *   `PGPORT`: The PostgreSQL port number.
+      - `HOST`: The hostname or IP address the server will listen on (e.g., `localhost`, `0.0.0.0`).
+      - `PORT`: The port number the server will listen on (e.g., `3000`, `8080`).
+      - `APP_HOST`: The host where the application is accessible (e.g., `http://localhost:3000`).
 
-    *   **JWT (JSON Web Token) Configuration:**
-        *   `ACCESS_TOKEN_KEY`: A secret key used to sign access tokens.  **Important: Keep this secret!**
-        *   `REFRESH_TOKEN_KEY`: A secret key used to sign refresh tokens. **Important: Keep this secret!**
-        *   `ACCESS_TOKEN_AGE`: The expiration time for access tokens (e.g., `1h` for 1 hour, `1d` for 1 day, `30m` for 30 minutes).
+    - **PostgreSQL Configuration:**
 
-    *   **RabbitMQ Configuration:**
-        *   `RABBITMQ_SERVER`: The connection string for your RabbitMQ server (e.g., `amqp://user:password@localhost`).
+      - `PGUSER`: The PostgreSQL username.
+      - `PGHOST`: The PostgreSQL host address.
+      - `PGPASSWORD`: The PostgreSQL password.
+      - `PGDATABASE`: The PostgreSQL database name.
+      - `PGPORT`: The PostgreSQL port number.
 
-    *   **Redis Configuration:**
-        *   `REDIS_SERVER`: The Redis server address (e.g., `localhost`).
-        *   `REDIS_PORT`: The Redis port number (e.g., `6379`).
-        *   
+    - **JWT (JSON Web Token) Configuration:**
+
+      - `ACCESS_TOKEN_KEY`: A secret key used to sign access tokens. **Important: Keep this secret!**
+      - `REFRESH_TOKEN_KEY`: A secret key used to sign refresh tokens. **Important: Keep this secret!**
+      - `ACCESS_TOKEN_AGE`: The expiration time for access tokens (e.g., `1h` for 1 hour, `1d` for 1 day, `30m` for 30 minutes).
+
+    - **RabbitMQ Configuration:**
+
+      - `RABBITMQ_SERVER`: The connection string for your RabbitMQ server (e.g., `amqp://user:password@localhost`).
+
+    - **Redis Configuration:**
+      - `REDIS_SERVER`: The Redis server address (e.g., `localhost`).
+      - `REDIS_PORT`: The Redis port number (e.g., `6379`).
+      -
+
 3.  **Create Database:**
 
     Create database:
@@ -178,8 +185,8 @@ Follow these steps to set up and run the backend application:
     ```bash
     npm run db:create
     ```
-    
-3.  **Run Database Migrations (UP):**
+
+4.  **Run Database Migrations (UP):**
 
     Apply database migrations to set up the database schema:
 
@@ -187,7 +194,7 @@ Follow these steps to set up and run the backend application:
     npm run migrate up
     ```
 
-4.  **Start the Server:**
+5.  **Start the Server:**
 
     Start the backend server:
 
@@ -195,7 +202,7 @@ Follow these steps to set up and run the backend application:
     npm start
     ```
 
-5.  **Run Database Migrations (DOWN) - For Development/Cleanup:**
+6.  **Run Database Migrations (DOWN) - For Development/Cleanup:**
 
     If you need to undo the migrations (e.g., for development or to reset the database), you can run the migrations down:
 
@@ -204,7 +211,8 @@ Follow these steps to set up and run the backend application:
     ```
 
     **Warning:** Running `migrate down` will remove tables and data from your database. Use with caution!
-6.  **Code Formatting and Linting:**
+
+7.  **Code Formatting and Linting:**
 
     To ensure consistent code style and catch potential errors, use the following commands to format and lint your code after making changes:
 
@@ -213,7 +221,26 @@ Follow these steps to set up and run the backend application:
     npm run lint
     ```
 
-    These commands will automatically format your code according to the project's style guidelines and identify any linting issues.  Make sure to address any linting errors before committing your changes.
+    These commands will automatically format your code according to the project's style guidelines and identify any linting issues. Make sure to address any linting errors before committing your changes.
 
 ### Machine Learning Setup Instructions:
 
+⚠️ Make sure you are using Python 3.11. Newer versions (such as 3.13) are not compatible and may cause runtime errors.
+
+1.  **Install The Required Dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+1.  **Download Model for Machine Learning API Server:**
+    Please download the model before running the application: <br/><br/>
+    📥 [Download model_bisindo_50epoch.h5](https://drive.google.com/uc?export=download&id=1kfO0U5WzPCOKnI5HceslWDCpwoNQPPSz)
+    <br /><br/>
+    Place the downloaded file in the root directory (at the same level as app.py).
+
+1.  **Run the machine Learning API Server:**
+    ```bash
+    python app.py
+    ```
+    This will start the ML API server, typically accessible at http://localhost:5000.
