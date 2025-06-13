@@ -163,15 +163,7 @@ export default function Features() {
               <ul class="list-none space-y-3 text-gray-700">
                 <li class="flex items-start gap-2 select-none cursor-not-allowed">
                   <i data-feather="check-square" class="w-4 h-4 stroke-blue-600 mt-1 shrink-0"></i>
-                  <span class="text-sm">App mockup: create a visual representation of the app’s design and user interface.</span>
-                </li>
-                <li class="flex items-start gap-2 select-none cursor-not-allowed">
-                  <i data-feather="check-square" class="w-4 h-4 stroke-blue-600 mt-1 shrink-0"></i>
                   <span class="text-sm">Use animation transitions and beautiful assets that suit the app’s purpose.</span>
-                </li>
-                <li class="flex items-start gap-2 select-none cursor-not-allowed">
-                  <i data-feather="check-square" class="w-4 h-4 stroke-blue-600 mt-1 shrink-0"></i>
-                  <span class="text-sm">Utilize the MVP architecture (Model-View-Presenter) throughout the web app project.</span>
                 </li>
                 <li class="flex items-start gap-2 select-none cursor-not-allowed">
                   <i data-feather="check-square" class="w-4 h-4 stroke-blue-600 mt-1 shrink-0"></i>
