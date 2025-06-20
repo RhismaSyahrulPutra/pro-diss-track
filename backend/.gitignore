@@ -1,3 +1,5 @@
+node_modules
+*.local
 # Direktori hasil build (jika ada)
 dist/
 build/
